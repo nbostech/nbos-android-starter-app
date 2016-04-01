@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StarterApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Logout</string>
+    <string name="fb_app_id">510108922524128</string>
+    <string name="wavelabs_app_id">my-client</string>
+    <string name="wavelabs_app_secret">my-secret</string>
+
+    <string name="loading">Loading…</string>
+    <string name="ok">OK</string>
+    <string name="permissions_sms">Please Grant SMS Permissions</string>
+    <string name="googleClientId">934148761240–7uf49nhf76jset1ad8vatqj9pdflghtj.apps.googleusercontent.com</string>
+    <string name="networkError">Network Error! Please check your connection</string>
+    <string name="validationError">Validation Error!</string>
+    <string name="success">Success</string>
+    <string name="unknownError">Unknown Error</string>
+    <string name="authenticationError">Authentication Error</string>
+
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

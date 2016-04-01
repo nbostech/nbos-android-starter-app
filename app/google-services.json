@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_id": "nbos-apps",
+    "project_number": "934148761240",
+    "name": "NBOS apps"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934148761240:android:40de9a2c277b0142",
+        "client_id": "android:in.wavelabs.starterapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "in.wavelabs.starterapp",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934148761240-84nnhe1lt79dbfs0dptvf9h09tfh5mpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.wavelabs.starterapp",
+            "certificate_hash": "3DFFBEDBBF30988F412B53E81FE56256D4063F0A"
+          }
+        },
+        {
+          "client_id": "934148761240-7uf49nhf76jset1ad8vatqj9pdflghtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75165143-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934148761240-k4ma2i20rkro22jjq3pnb7kaatj6pnk2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nbostech.ApiStarter",
+                "app_store_id": ""
+              }
+            },
+            {
+              "client_id": "934148761240-7uf49nhf76jset1ad8vatqj9pdflghtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

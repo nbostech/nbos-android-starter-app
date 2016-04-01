@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edit Profile"
+        android:textSize="25sp"
+        android:id="@+id/textView5" />
+
+
+
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:id="@+id/profilepic"
+            android:background="#bdbdbd"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_toRightOf="@+id/profilepic"
+    android:layout_toEndOf="@+id/profilepic">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="First Name:"
+            android:id="@+id/textView9" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="First Name"
+            android:id="@+id/firstname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Last Name:"
+            android:id="@+id/textView11"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="Last Name"
+            android:id="@+id/lastname" />
+</LinearLayout>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="eMail"
+            android:id="@+id/emailtxt"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical|start"
+            android:background="#FFF"
+            android:paddingLeft="3dp"
+            android:layout_below="@+id/profilepic"
+            android:layout_toRightOf="@+id/imageView9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:id="@+id/update"
+            android:background="@drawable/login_button"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/emailtxt"
+            android:layout_alignEnd="@+id/emailtxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView9"
+            android:src="@mipmap/ic_mail_outline_black_48dp"
+            android:background="#FFF"
+            android:layout_alignTop="@+id/emailtxt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/emailtxt" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+android {
+   // compileSdkVersion 'android-N'
+    buildToolsVersion '24.0.0 rc1'
+
+    defaultConfig {
+        applicationId "in.wavelabs.starterapp"
+        minSdkVersion 15
+        targetSdkVersion 'N'
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        experimental {
+            compileSdkVersion 'android-N'
+            minSdkVersion 'N'
+            targetSdkVersion 'N'
+        }
+        dev {
+            compileSdkVersion 23
+            targetSdkVersion 15
+        }
+    }
+    configurations {
+        devDebugCompile
+        devReleaseCompile
+        experimentalDebugCompile
+        experimentalReleaseCompile
+    }
+
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.0.43-beta'
+
+    compile 'com.android.support:design:24.0.0-alpha1'
+    compile 'com.android.support:appcompat-v7:24.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:24.0.0-alpha1'
+    compile 'com.facebook.android:facebook-android-sdk:4.10.1'
+    compile 'com.google.android.gms:play-services-auth:8.4.0'
+    compile 'com.mobsandgeeks:android-saripaar:2.0.3'
+    compile('com.digits.sdk.android:digits:1.10.0@aar') {
+        transitive = true;
+    }
+    compile('com.twitter.sdk.android:twitter:1.13.0@aar') {
+        transitive = true;
+    }
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:support-v4:24.0.0-alpha1'
+    debugCompile project(path: ':startersdk', configuration: 'devDebug')
+    releaseCompile project(path: ':startersdk', configuration: 'devRelease')
+    devDebugCompile project(path: ':startersdk', configuration: 'devDebug')
+    devReleaseCompile project(path: ':startersdk', configuration: 'devRelease')
+    experimentalDebugCompile project(path: ':startersdk', configuration: 'experimentalDebug')
+    experimentalReleaseCompile project(path: ':startersdk', configuration: 'experimentalRelease')
+
+}
+apply plugin: 'com.google.gms.google-services'
