@@ -1,1 +1,1 @@
-include ':app', ':startersdk'
+include ':app', ':wavelabs-android-client-api'
