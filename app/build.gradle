@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 android {
    // compileSdkVersion 'android-N'
-    buildToolsVersion '24.0.0 rc1'
+    buildToolsVersion '24.0.0 rc2'
 
     defaultConfig {
         applicationId "in.wavelabs.starterapp"
@@ -61,12 +61,12 @@ dependencies {
     }
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.android.support:support-v4:24.0.0-alpha1'
-    debugCompile project(path: ':startersdk', configuration: 'devDebug')
-    releaseCompile project(path: ':startersdk', configuration: 'devRelease')
-    devDebugCompile project(path: ':startersdk', configuration: 'devDebug')
-    devReleaseCompile project(path: ':startersdk', configuration: 'devRelease')
-    experimentalDebugCompile project(path: ':startersdk', configuration: 'experimentalDebug')
-    experimentalReleaseCompile project(path: ':startersdk', configuration: 'experimentalRelease')
+    debugCompile project(path: ':wavelabs-android-client-api', configuration: 'devDebug')
+    releaseCompile project(path: ':wavelabs-android-client-api', configuration: 'devRelease')
+    devDebugCompile project(path: ':wavelabs-android-client-api', configuration: 'devDebug')
+    devReleaseCompile project(path: ':wavelabs-android-client-api', configuration: 'devRelease')
+    experimentalDebugCompile project(path: ':wavelabs-android-client-api', configuration: 'experimentalDebug')
+    experimentalReleaseCompile project(path: ':wavelabs-android-client-api', configuration: 'experimentalRelease')
 
 }
 apply plugin: 'com.google.gms.google-services'
