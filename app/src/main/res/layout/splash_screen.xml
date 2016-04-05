@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Network Business Operating System"
+        android:text="NBOS Identity Network"
         android:id="@+id/textView"
         android:textStyle="italic"
         android:layout_centerVertical="true"
