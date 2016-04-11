@@ -153,19 +153,10 @@ public class LoginFragment extends Fragment implements
 
             }
         });
-//        LinkedInButton lb = (LinkedInButton) findViewById(R.id.linkedInLogin);
-//        lb.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//            }
-//        });
+
         loginButton.registerCallback(AuthActivity.callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-//                String accessTokens= loginResult.getAccessToken().getToken();
-//                System.out.println(accessTokens);
-//                Log.d("AccessToken:", accessToken);
                 String service = "facebook";
                 AccessToken accessToken = AccessToken.getCurrentAccessToken();
                 String token = accessToken.getToken();
