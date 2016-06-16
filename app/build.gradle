@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 android {
-    buildToolsVersion '23.0.3'
+    buildToolsVersion '24.0.0'
 
     defaultConfig {
         applicationId "in.wavelabs.starterapp"
         minSdkVersion 15
-        compileSdkVersion 23
+        compileSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
