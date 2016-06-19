@@ -1,14 +1,16 @@
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 android {
+    compileSdkVersion 24
     buildToolsVersion '24.0.0'
 
     defaultConfig {
         applicationId "in.wavelabs.starterapp"
         minSdkVersion 15
-        compileSdkVersion 24
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -16,14 +18,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha3'
     testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support:support-annotations:24.0.0'
     testCompile 'org.mockito:mockito-core:2.0.43-beta'
-
     compile 'com.android.support:design:24.0.0'
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:recyclerview-v7:24.0.0'
@@ -39,5 +50,6 @@ dependencies {
     }
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.android.support:support-v4:24.0.0'
+    compile 'in.wavelabs:idn:0.0.8'
 }
 apply plugin: 'com.google.gms.google-services'

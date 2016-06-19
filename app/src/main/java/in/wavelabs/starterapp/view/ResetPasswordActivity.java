@@ -13,14 +13,13 @@ import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Email;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+import com.nbos.capi.api.v0.RestMessage;
 
 import java.util.List;
 
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.ConnectionAPI.AuthApi;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.DataModel.validation.MessagesApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
+import in.wavelabs.idn.ConnectionAPI.AuthApi;
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
 import retrofit2.Response;
 
 /**
@@ -77,10 +76,10 @@ public class ResetPasswordActivity extends AppCompatActivity implements Validato
     }
 
     private void resetPassword(){
-        AuthApi.resetPassword(ResetPasswordActivity.this, emailEditText.getText().toString(), new NBOSCallback<MessagesApiModel>() {
+        AuthApi.resetPassword(ResetPasswordActivity.this, emailEditText.getText().toString(), new NBOSCallback<RestMessage>() {
 
             @Override
-            public void onSuccess(Response<MessagesApiModel> response) {
+            public void onResponse(Response<RestMessage> response) {
                 if (response.isSuccessful()) {
                     Intent i = new Intent(ResetPasswordActivity.this, ResetPasswordSuccess.class);
                     startActivity(i);
@@ -94,20 +93,6 @@ public class ResetPasswordActivity extends AppCompatActivity implements Validato
 
             }
 
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
-
-            }
 
 
         });

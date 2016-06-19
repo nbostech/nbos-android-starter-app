@@ -17,14 +17,13 @@ import com.mobsandgeeks.saripaar.annotation.Checked;
 import com.mobsandgeeks.saripaar.annotation.Email;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
+import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
 
 import java.util.List;
 
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.ConnectionAPI.AuthApi;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.DataModel.member.NewMemberApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
+import in.wavelabs.idn.ConnectionAPI.AuthApi;
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
 import retrofit2.Response;
 
 /**
@@ -82,14 +81,10 @@ public class RegisterFragment extends Fragment implements Validator.ValidationLi
     }
     private void createAccount(String firstName, String lastName, String username, String email, String password){
         AuthApi.createAccount(getActivity(),email,username,firstName,lastName,password, new NBOSCallback<NewMemberApiModel>() {
+
             @Override
-            public void onSuccess(Response<NewMemberApiModel> response) {
+            public void onResponse(Response<NewMemberApiModel> response) {
 
-                if (response.isSuccessful()) {
-                    Intent i = new Intent(getActivity(), MainActivity.class);
-                    startActivity(i);
-
-                }
             }
 
             @Override
@@ -97,23 +92,6 @@ public class RegisterFragment extends Fragment implements Validator.ValidationLi
                 Toast.makeText(getActivity(),R.string.networkError, Toast.LENGTH_SHORT).show();
 
             }
-
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
-
-            }
-
-
 
 
         });

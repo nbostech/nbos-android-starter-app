@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_mail_outline_black_48dp.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_mail_outline_black_48dp.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_person_outline_black_48dp.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_person_outline_black_48dp.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_lock_outline_black_48dp.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_lock_outline_black_48dp.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_account_circle_white_48dp.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_account_circle_white_48dp.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_account_circle_black_48dp.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_account_circle_black_48dp.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_linkedin.png",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/src/main/res/mipmap-xhdpi/ic_linkedin.png"
+    }
+]

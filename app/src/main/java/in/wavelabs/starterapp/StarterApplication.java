@@ -7,7 +7,7 @@ import com.facebook.FacebookSdk;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterCore;
 
-import in.wavelabs.startersdk.WaveLabsSdk;
+import in.wavelabs.idn.WaveLabsSdk;
 import io.fabric.sdk.android.Fabric;
 
 /**

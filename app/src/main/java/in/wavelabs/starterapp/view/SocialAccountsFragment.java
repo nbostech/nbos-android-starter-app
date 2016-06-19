@@ -29,17 +29,16 @@ import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
+import com.nbos.capi.modules.identity.v0.MemberApiModel;
+import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
+import com.nbos.capi.modules.identity.v0.SocialConnectUrlResponse;
 
 import java.util.Arrays;
 import java.util.List;
 
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
+import in.wavelabs.idn.ConnectionAPI.SocialApi;
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.ConnectionAPI.SocialApi;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.DataModel.auth.social.SocialLogin;
-import in.wavelabs.startersdk.DataModel.member.MemberApiModel;
-import in.wavelabs.startersdk.DataModel.member.NewMemberApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
 import retrofit2.Response;
 
 
@@ -126,10 +125,10 @@ public class SocialAccountsFragment extends Fragment implements
         linkedIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SocialApi.socialLogin(getActivity(),SocialAccountsFragment.this,"linkedIn", new NBOSCallback<SocialLogin>() {
+                SocialApi.socialLogin(getActivity(),"linkedIn", new NBOSCallback<SocialConnectUrlResponse>() {
 
                     @Override
-                    public void onSuccess(Response<SocialLogin> response) {
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
 
                     }
 
@@ -138,20 +137,6 @@ public class SocialAccountsFragment extends Fragment implements
 
                     }
 
-                    @Override
-                    public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-                    }
-
-                    @Override
-                    public void authenticationError(String authenticationError) {
-
-                    }
-
-                    @Override
-                    public void unknownError(String unknownError) {
-
-                    }
 
                 });
             }
@@ -159,10 +144,10 @@ public class SocialAccountsFragment extends Fragment implements
         instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SocialApi.socialLogin(getActivity(),SocialAccountsFragment.this, "instagram", new NBOSCallback<SocialLogin>() {
+                SocialApi.socialLogin(getActivity(), "instagram", new NBOSCallback<SocialConnectUrlResponse>() {
 
                     @Override
-                    public void onSuccess(Response<SocialLogin> response) {
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
 
                     }
 
@@ -171,20 +156,6 @@ public class SocialAccountsFragment extends Fragment implements
 
                     }
 
-                    @Override
-                    public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-                    }
-
-                    @Override
-                    public void authenticationError(String authenticationError) {
-
-                    }
-
-                    @Override
-                    public void unknownError(String unknownError) {
-
-                    }
 
 
                 });
@@ -193,30 +164,15 @@ public class SocialAccountsFragment extends Fragment implements
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SocialApi.socialLogin(getActivity(),SocialAccountsFragment.this,  "gitHub", new NBOSCallback<SocialLogin>() {
+                SocialApi.socialLogin(getActivity(), "gitHub", new NBOSCallback<SocialConnectUrlResponse>() {
 
                     @Override
-                    public void onSuccess(Response<SocialLogin> response) {
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
 
                     }
 
                     @Override
                     public void onFailure(Throwable t) {
-
-                    }
-
-                    @Override
-                    public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-                    }
-
-                    @Override
-                    public void authenticationError(String authenticationError) {
-
-                    }
-
-                    @Override
-                    public void unknownError(String unknownError) {
 
                     }
 
@@ -303,7 +259,7 @@ public class SocialAccountsFragment extends Fragment implements
     private void connect(String service, String accessToken){
         SocialApi.socialConnect(getActivity(),accessToken, service, new NBOSCallback<NewMemberApiModel>() {
             @Override
-            public void onSuccess(Response<NewMemberApiModel> response) {
+            public void onResponse(Response<NewMemberApiModel> response) {
                 Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
                 getActivity().overridePendingTransition(0, 0);
@@ -316,29 +272,15 @@ public class SocialAccountsFragment extends Fragment implements
 
             }
 
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
-
-            }
 
 
         });
     }
  private void authorizeAndConnect(final String service, String code, String state){
-     SocialApi.authorizeAndConnect(getActivity(), service,code, state, new NBOSCallback<MemberApiModel>() {
+     SocialApi.authorizeAndConnect(getActivity(), service,code, state, new NBOSCallback<NewMemberApiModel>() {
 
                         @Override
-                        public void onSuccess(Response<MemberApiModel> response) {
+                        public void onResponse(Response<NewMemberApiModel> response) {
                             if(response.isSuccessful()){
                                 Toast.makeText(getActivity(),service +" connected successfully", Toast.LENGTH_SHORT).show();
                             }
@@ -351,20 +293,6 @@ public class SocialAccountsFragment extends Fragment implements
 
                         }
 
-                        @Override
-                        public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-                        }
-
-                        @Override
-                        public void authenticationError(String authenticationError) {
-
-                        }
-
-                        @Override
-                        public void unknownError(String unknownError) {
-
-                        }
                     });
  }
 }

@@ -6,8 +6,8 @@
 
     <string name="action_settings">Logout</string>
     <string name="fb_app_id">510108922524128</string>
-    <string name="wavelabs_app_id">my-client</string>
-    <string name="wavelabs_app_secret">my-secret</string>
+    <string name="wavelabs_app_id">sample-app-client</string>
+    <string name="wavelabs_app_secret">sample-app-secret</string>
 
     <string name="loading">Loading…</string>
     <string name="ok">OK</string>

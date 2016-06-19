@@ -1,0 +1,3390 @@
+[
+    {
+        "outputFile": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 238,
+                    "endColumn": 19,
+                    "endOffset": 9253
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 238,
+                        "endColumn": 19,
+                        "endOffset": 9203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 9258,
+                    "endLine": 242,
+                    "endColumn": 14,
+                    "endOffset": 9387
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 14,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 9392,
+                    "endLine": 246,
+                    "endColumn": 14,
+                    "endOffset": 9520
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endLine": 9,
+                        "endColumn": 14,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 9525,
+                    "endLine": 250,
+                    "endColumn": 14,
+                    "endOffset": 9655
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 322,
+                        "endLine": 13,
+                        "endColumn": 14,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 9660,
+                    "endColumn": 107,
+                    "endOffset": 9763
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 107,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 9768,
+                    "endColumn": 107,
+                    "endOffset": 9871
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 107,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 9876,
+                    "endColumn": 122,
+                    "endOffset": 9994
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 122,
+                        "endOffset": 389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 9999,
+                    "endColumn": 104,
+                    "endOffset": 10099
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 394,
+                        "endColumn": 104,
+                        "endOffset": 494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 10104,
+                    "endColumn": 114,
+                    "endOffset": 10214
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 114,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 10219,
+                    "endColumn": 83,
+                    "endOffset": 10298
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endColumn": 83,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 10303,
+                    "endColumn": 111,
+                    "endOffset": 10410
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 111,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 10415,
+                    "endColumn": 129,
+                    "endOffset": 10540
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 129,
+                        "endOffset": 935
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 10545,
+                    "endColumn": 75,
+                    "endOffset": 10616
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 940,
+                        "endColumn": 75,
+                        "endOffset": 1011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 10621,
+                    "endColumn": 75,
+                    "endOffset": 10692
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1016,
+                        "endColumn": 75,
+                        "endOffset": 1087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 10697,
+                    "endColumn": 82,
+                    "endOffset": 10775
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1092,
+                        "endColumn": 82,
+                        "endOffset": 1170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 10780,
+                    "endColumn": 109,
+                    "endOffset": 10885
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1175,
+                        "endColumn": 109,
+                        "endOffset": 1280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 10890,
+                    "endColumn": 110,
+                    "endOffset": 10996
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1285,
+                        "endColumn": 110,
+                        "endOffset": 1391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 11001,
+                    "endColumn": 99,
+                    "endOffset": 11096
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1396,
+                        "endColumn": 99,
+                        "endOffset": 1491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 11101,
+                    "endColumn": 110,
+                    "endOffset": 11207
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 110,
+                        "endOffset": 1602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 11212,
+                    "endColumn": 107,
+                    "endOffset": 11315
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1607,
+                        "endColumn": 107,
+                        "endOffset": 1710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 11320,
+                    "endColumn": 118,
+                    "endOffset": 11434
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1715,
+                        "endColumn": 118,
+                        "endOffset": 1829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 11439,
+                    "endColumn": 133,
+                    "endOffset": 11568
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1834,
+                        "endColumn": 133,
+                        "endOffset": 1963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 11573,
+                    "endColumn": 102,
+                    "endOffset": 11671
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 102,
+                        "endOffset": 2066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 11676,
+                    "endColumn": 62,
+                    "endOffset": 11734
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 9208,
+                        "endColumn": 62,
+                        "endOffset": 9266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 11739,
+                    "endColumn": 63,
+                    "endOffset": 11798
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 9271,
+                        "endColumn": 63,
+                        "endOffset": 9330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 11803,
+                    "endColumn": 72,
+                    "endOffset": 11871
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 9335,
+                        "endColumn": 72,
+                        "endOffset": 9403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 11876,
+                    "endColumn": 68,
+                    "endOffset": 11940
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 9408,
+                        "endColumn": 68,
+                        "endOffset": 9472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 11945,
+                    "endColumn": 70,
+                    "endOffset": 12011
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 9477,
+                        "endColumn": 70,
+                        "endOffset": 9543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 12016,
+                    "endColumn": 61,
+                    "endOffset": 12073
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 9548,
+                        "endColumn": 61,
+                        "endOffset": 9605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 12078,
+                    "endColumn": 55,
+                    "endOffset": 12129
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 9610,
+                        "endColumn": 55,
+                        "endOffset": 9661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 12134,
+                    "endColumn": 71,
+                    "endOffset": 12201
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 9666,
+                        "endColumn": 71,
+                        "endOffset": 9733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 12206,
+                    "endColumn": 76,
+                    "endOffset": 12278
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 9738,
+                        "endColumn": 76,
+                        "endOffset": 9810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 12283,
+                    "endColumn": 64,
+                    "endOffset": 12343
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 9815,
+                        "endColumn": 64,
+                        "endOffset": 9875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 12348,
+                    "endColumn": 88,
+                    "endOffset": 12432
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 9880,
+                        "endColumn": 88,
+                        "endOffset": 9964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 12437,
+                    "endColumn": 192,
+                    "endOffset": 12625
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 9969,
+                        "endColumn": 192,
+                        "endOffset": 10157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 12630,
+                    "endColumn": 63,
+                    "endOffset": 12689
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 10162,
+                        "endColumn": 63,
+                        "endOffset": 10221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 12694,
+                    "endColumn": 65,
+                    "endOffset": 12755
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 10226,
+                        "endColumn": 65,
+                        "endOffset": 10287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 12760,
+                    "endColumn": 63,
+                    "endOffset": 12819
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 10292,
+                        "endColumn": 63,
+                        "endOffset": 10351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 12824,
+                    "endColumn": 81,
+                    "endOffset": 12901
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 10356,
+                        "endColumn": 81,
+                        "endOffset": 10433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 12906,
+                    "endLine": 288,
+                    "endColumn": 13,
+                    "endOffset": 13215
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 10438,
+                        "endLine": 257,
+                        "endColumn": 13,
+                        "endOffset": 10747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 13220,
+                    "endLine": 291,
+                    "endColumn": 13,
+                    "endOffset": 13618
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 10752,
+                        "endLine": 260,
+                        "endColumn": 13,
+                        "endOffset": 11150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 13623,
+                    "endLine": 294,
+                    "endColumn": 13,
+                    "endOffset": 14084
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 4,
+                        "startOffset": 11155,
+                        "endLine": 263,
+                        "endColumn": 13,
+                        "endOffset": 11616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 14089,
+                    "endColumn": 81,
+                    "endOffset": 14166
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 11621,
+                        "endColumn": 81,
+                        "endOffset": 11698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 14171,
+                    "endColumn": 81,
+                    "endOffset": 14248
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 11703,
+                        "endColumn": 81,
+                        "endOffset": 11780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 14253,
+                    "endColumn": 110,
+                    "endOffset": 14359
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 4,
+                        "startOffset": 11785,
+                        "endColumn": 110,
+                        "endOffset": 11891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 14364,
+                    "endColumn": 78,
+                    "endOffset": 14438
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 11896,
+                        "endColumn": 78,
+                        "endOffset": 11970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 14443,
+                    "endColumn": 93,
+                    "endOffset": 14532
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 11975,
+                        "endColumn": 93,
+                        "endOffset": 12064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 14537,
+                    "endLine": 302,
+                    "endColumn": 13,
+                    "endOffset": 14853
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 12069,
+                        "endLine": 271,
+                        "endColumn": 13,
+                        "endOffset": 12385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 14858,
+                    "endColumn": 87,
+                    "endOffset": 14941
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 12390,
+                        "endColumn": 87,
+                        "endOffset": 12473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 14946,
+                    "endColumn": 80,
+                    "endOffset": 15022
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 12478,
+                        "endColumn": 80,
+                        "endOffset": 12554
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 15027,
+                    "endColumn": 127,
+                    "endOffset": 15150
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 12559,
+                        "endColumn": 127,
+                        "endOffset": 12682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 15155,
+                    "endColumn": 75,
+                    "endOffset": 15226
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 12687,
+                        "endColumn": 75,
+                        "endOffset": 12758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 15231,
+                    "endColumn": 103,
+                    "endOffset": 15330
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 12763,
+                        "endColumn": 103,
+                        "endOffset": 12862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 15335,
+                    "endColumn": 95,
+                    "endOffset": 15426
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 12867,
+                        "endColumn": 95,
+                        "endOffset": 12958
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 15431,
+                    "endColumn": 98,
+                    "endOffset": 15525
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 12963,
+                        "endColumn": 98,
+                        "endOffset": 13057
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 15530,
+                    "endLine": 312,
+                    "endColumn": 13,
+                    "endOffset": 15902
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 13062,
+                        "endLine": 281,
+                        "endColumn": 13,
+                        "endOffset": 13434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 15907,
+                    "endColumn": 87,
+                    "endOffset": 15990
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 13439,
+                        "endColumn": 87,
+                        "endOffset": 13522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 15995,
+                    "endColumn": 78,
+                    "endOffset": 16069
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 13527,
+                        "endColumn": 78,
+                        "endOffset": 13601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 16074,
+                    "endColumn": 124,
+                    "endOffset": 16194
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 13606,
+                        "endColumn": 124,
+                        "endOffset": 13726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 16199,
+                    "endColumn": 74,
+                    "endOffset": 16269
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 13731,
+                        "endColumn": 74,
+                        "endOffset": 13801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 16274,
+                    "endColumn": 63,
+                    "endOffset": 16333
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 13806,
+                        "endColumn": 63,
+                        "endOffset": 13865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 16338,
+                    "endColumn": 62,
+                    "endOffset": 16396
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 13870,
+                        "endColumn": 62,
+                        "endOffset": 13928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 16401,
+                    "endColumn": 93,
+                    "endOffset": 16490
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 13933,
+                        "endColumn": 93,
+                        "endOffset": 14022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 16495,
+                    "endLine": 322,
+                    "endColumn": 13,
+                    "endOffset": 16631
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 14027,
+                        "endLine": 291,
+                        "endColumn": 13,
+                        "endOffset": 14163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 16636,
+                    "endColumn": 74,
+                    "endOffset": 16706
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 14168,
+                        "endColumn": 74,
+                        "endOffset": 14238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 16711,
+                    "endColumn": 155,
+                    "endOffset": 16862
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 155,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 16867,
+                    "endColumn": 117,
+                    "endOffset": 16980
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 211,
+                        "endColumn": 117,
+                        "endOffset": 324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 16985,
+                    "endColumn": 149,
+                    "endOffset": 17130
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 149,
+                        "endOffset": 474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 17135,
+                    "endColumn": 93,
+                    "endOffset": 17224
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 479,
+                        "endColumn": 93,
+                        "endOffset": 568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 17229,
+                    "endColumn": 67,
+                    "endOffset": 17292
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 573,
+                        "endColumn": 67,
+                        "endOffset": 636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 17297,
+                    "endColumn": 70,
+                    "endOffset": 17363
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 641,
+                        "endColumn": 70,
+                        "endOffset": 707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 17368,
+                    "endColumn": 60,
+                    "endOffset": 17424
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 712,
+                        "endColumn": 60,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 17429,
+                    "endColumn": 71,
+                    "endOffset": 17496
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 773,
+                        "endColumn": 71,
+                        "endOffset": 840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 17501,
+                    "endColumn": 78,
+                    "endOffset": 17575
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 845,
+                        "endColumn": 78,
+                        "endOffset": 919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 17580,
+                    "endColumn": 108,
+                    "endOffset": 17684
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 924,
+                        "endColumn": 108,
+                        "endOffset": 1028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 17689,
+                    "endColumn": 79,
+                    "endOffset": 17764
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1033,
+                        "endColumn": 79,
+                        "endOffset": 1108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 17769,
+                    "endColumn": 79,
+                    "endOffset": 17844
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1113,
+                        "endColumn": 79,
+                        "endOffset": 1188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 17849,
+                    "endColumn": 88,
+                    "endOffset": 17933
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1193,
+                        "endColumn": 88,
+                        "endOffset": 1277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 17938,
+                    "endColumn": 114,
+                    "endOffset": 18048
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1282,
+                        "endColumn": 114,
+                        "endOffset": 1392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 18053,
+                    "endColumn": 64,
+                    "endOffset": 18113
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1397,
+                        "endColumn": 64,
+                        "endOffset": 1457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 18118,
+                    "endColumn": 68,
+                    "endOffset": 18182
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1462,
+                        "endColumn": 68,
+                        "endOffset": 1526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 18187,
+                    "endColumn": 160,
+                    "endOffset": 18343
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.12.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1531,
+                        "endColumn": 160,
+                        "endOffset": 1687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 18348,
+                    "endColumn": 309,
+                    "endOffset": 18653
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 309,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 18658,
+                    "endColumn": 130,
+                    "endOffset": 18784
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 130,
+                        "endOffset": 759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 18789,
+                    "endColumn": 215,
+                    "endOffset": 19000
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 764,
+                        "endColumn": 215,
+                        "endOffset": 975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 19005,
+                    "endColumn": 139,
+                    "endOffset": 19140
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 980,
+                        "endColumn": 139,
+                        "endOffset": 1115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 19145,
+                    "endColumn": 140,
+                    "endOffset": 19281
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1120,
+                        "endColumn": 140,
+                        "endOffset": 1256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 19286,
+                    "endColumn": 232,
+                    "endOffset": 19514
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1261,
+                        "endColumn": 232,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 19519,
+                    "endColumn": 234,
+                    "endOffset": 19749
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endColumn": 234,
+                        "endOffset": 1724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 19754,
+                    "endColumn": 139,
+                    "endOffset": 19889
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1729,
+                        "endColumn": 139,
+                        "endOffset": 1864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 19894,
+                    "endColumn": 183,
+                    "endOffset": 20073
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1869,
+                        "endColumn": 183,
+                        "endOffset": 2048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 20078,
+                    "endColumn": 124,
+                    "endOffset": 20198
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2053,
+                        "endColumn": 124,
+                        "endOffset": 2173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 20203,
+                    "endColumn": 184,
+                    "endOffset": 20383
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2178,
+                        "endColumn": 184,
+                        "endOffset": 2358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 20388,
+                    "endColumn": 119,
+                    "endOffset": 20503
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2363,
+                        "endColumn": 119,
+                        "endOffset": 2478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 20508,
+                    "endColumn": 138,
+                    "endOffset": 20642
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2483,
+                        "endColumn": 138,
+                        "endOffset": 2617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 20647,
+                    "endColumn": 202,
+                    "endOffset": 20845
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2622,
+                        "endColumn": 202,
+                        "endOffset": 2820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 20850,
+                    "endColumn": 150,
+                    "endOffset": 20996
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2825,
+                        "endColumn": 150,
+                        "endOffset": 2971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 21001,
+                    "endColumn": 180,
+                    "endOffset": 21177
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2976,
+                        "endColumn": 180,
+                        "endOffset": 3152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 21182,
+                    "endColumn": 149,
+                    "endOffset": 21327
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3157,
+                        "endColumn": 149,
+                        "endOffset": 3302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 21332,
+                    "endColumn": 187,
+                    "endOffset": 21515
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3307,
+                        "endColumn": 187,
+                        "endOffset": 3490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 21520,
+                    "endColumn": 131,
+                    "endOffset": 21647
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3495,
+                        "endColumn": 131,
+                        "endOffset": 3622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 21652,
+                    "endColumn": 294,
+                    "endOffset": 21942
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 294,
+                        "endOffset": 613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 21947,
+                    "endColumn": 294,
+                    "endOffset": 22237
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3627,
+                        "endColumn": 294,
+                        "endOffset": 3917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 22242,
+                    "endColumn": 129,
+                    "endOffset": 22367
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3922,
+                        "endColumn": 129,
+                        "endOffset": 4047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 22372,
+                    "endColumn": 109,
+                    "endOffset": 22477
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 4052,
+                        "endColumn": 109,
+                        "endOffset": 4157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 22482,
+                    "endColumn": 215,
+                    "endOffset": 22693
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 4162,
+                        "endColumn": 215,
+                        "endOffset": 4373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 22698,
+                    "endColumn": 138,
+                    "endOffset": 22832
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 4378,
+                        "endColumn": 138,
+                        "endOffset": 4512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 22837,
+                    "endColumn": 230,
+                    "endOffset": 23063
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4517,
+                        "endColumn": 230,
+                        "endOffset": 4743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 23068,
+                    "endColumn": 140,
+                    "endOffset": 23204
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4748,
+                        "endColumn": 140,
+                        "endOffset": 4884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 23209,
+                    "endColumn": 201,
+                    "endOffset": 23406
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4889,
+                        "endColumn": 201,
+                        "endOffset": 5086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 23411,
+                    "endColumn": 100,
+                    "endOffset": 23507
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 5091,
+                        "endColumn": 100,
+                        "endOffset": 5187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 23512,
+                    "endColumn": 97,
+                    "endOffset": 23605
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 5192,
+                        "endColumn": 97,
+                        "endOffset": 5285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 23610,
+                    "endColumn": 116,
+                    "endOffset": 23722
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-hu/values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 5290,
+                        "endColumn": 116,
+                        "endOffset": 5402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 23727,
+                    "endColumn": 50,
+                    "endOffset": 23773
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 23778,
+                    "endColumn": 60,
+                    "endOffset": 23834
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 60,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 23839,
+                    "endColumn": 66,
+                    "endOffset": 23901
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 66,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 23906,
+                    "endColumn": 99,
+                    "endOffset": 24001
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 99,
+                        "endOffset": 329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 24006,
+                    "endColumn": 92,
+                    "endOffset": 24094
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 334,
+                        "endColumn": 92,
+                        "endOffset": 422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 24099,
+                    "endColumn": 128,
+                    "endOffset": 24223
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 427,
+                        "endColumn": 128,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 24228,
+                    "endColumn": 110,
+                    "endOffset": 24334
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 110,
+                        "endOffset": 662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 24339,
+                    "endColumn": 49,
+                    "endOffset": 24384
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 667,
+                        "endColumn": 49,
+                        "endOffset": 712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 24389,
+                    "endColumn": 65,
+                    "endOffset": 24450
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 717,
+                        "endColumn": 65,
+                        "endOffset": 778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 24455,
+                    "endColumn": 69,
+                    "endOffset": 24520
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 783,
+                        "endColumn": 69,
+                        "endOffset": 848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 24525,
+                    "endColumn": 72,
+                    "endOffset": 24593
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 853,
+                        "endColumn": 72,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 24598,
+                    "endColumn": 49,
+                    "endOffset": 24643
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 926,
+                        "endColumn": 49,
+                        "endOffset": 971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 24648,
+                    "endColumn": 43,
+                    "endOffset": 24687
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 976,
+                        "endColumn": 43,
+                        "endOffset": 1015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 24692,
+                    "endColumn": 68,
+                    "endOffset": 24756
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1020,
+                        "endColumn": 68,
+                        "endOffset": 1084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 24761,
+                    "endColumn": 79,
+                    "endOffset": 24836
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1089,
+                        "endColumn": 79,
+                        "endOffset": 1164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 24841,
+                    "endColumn": 73,
+                    "endOffset": 24910
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1169,
+                        "endColumn": 73,
+                        "endOffset": 1238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 24915,
+                    "endColumn": 85,
+                    "endOffset": 24996
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1243,
+                        "endColumn": 85,
+                        "endOffset": 1324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 25001,
+                    "endColumn": 84,
+                    "endOffset": 25081
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1329,
+                        "endColumn": 84,
+                        "endOffset": 1409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 25086,
+                    "endColumn": 78,
+                    "endOffset": 25160
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1414,
+                        "endColumn": 78,
+                        "endOffset": 1488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 25165,
+                    "endColumn": 99,
+                    "endOffset": 25260
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1493,
+                        "endColumn": 99,
+                        "endOffset": 1588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 25265,
+                    "endColumn": 50,
+                    "endOffset": 25311
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1593,
+                        "endColumn": 50,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 25316,
+                    "endColumn": 41,
+                    "endOffset": 25353
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1644,
+                        "endColumn": 41,
+                        "endOffset": 1681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 25358,
+                    "endColumn": 65,
+                    "endOffset": 25419
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1686,
+                        "endColumn": 65,
+                        "endOffset": 1747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 25424,
+                    "endColumn": 75,
+                    "endOffset": 25495
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1752,
+                        "endColumn": 75,
+                        "endOffset": 1823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 25500,
+                    "endColumn": 101,
+                    "endOffset": 25597
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1828,
+                        "endColumn": 101,
+                        "endOffset": 1925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 25602,
+                    "endColumn": 81,
+                    "endOffset": 25679
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1930,
+                        "endColumn": 81,
+                        "endOffset": 2007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 398,
+                    "startColumn": 4,
+                    "startOffset": 25684,
+                    "endColumn": 85,
+                    "endOffset": 25765
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2012,
+                        "endColumn": 85,
+                        "endOffset": 2093
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 399,
+                    "startColumn": 4,
+                    "startOffset": 25770,
+                    "endColumn": 79,
+                    "endOffset": 25845
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2098,
+                        "endColumn": 79,
+                        "endOffset": 2173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 25850,
+                    "endColumn": 61,
+                    "endOffset": 25907
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2178,
+                        "endColumn": 61,
+                        "endOffset": 2235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 25912,
+                    "endColumn": 56,
+                    "endOffset": 25964
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2240,
+                        "endColumn": 56,
+                        "endOffset": 2292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 402,
+                    "startColumn": 4,
+                    "startOffset": 25969,
+                    "endColumn": 337,
+                    "endOffset": 26302
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2297,
+                        "endColumn": 337,
+                        "endOffset": 2630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 26307,
+                    "endColumn": 395,
+                    "endOffset": 26698
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2635,
+                        "endColumn": 395,
+                        "endOffset": 3026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 404,
+                    "startColumn": 4,
+                    "startOffset": 26703,
+                    "endColumn": 222,
+                    "endOffset": 26921
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3031,
+                        "endColumn": 222,
+                        "endOffset": 3249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 405,
+                    "startColumn": 4,
+                    "startOffset": 26926,
+                    "endColumn": 428,
+                    "endOffset": 27350
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 3254,
+                        "endColumn": 428,
+                        "endOffset": 3678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 27355,
+                    "endColumn": 307,
+                    "endOffset": 27658
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 3683,
+                        "endColumn": 307,
+                        "endOffset": 3986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 27663,
+                    "endColumn": 486,
+                    "endOffset": 28145
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 3991,
+                        "endColumn": 486,
+                        "endOffset": 4473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 28150,
+                    "endColumn": 60,
+                    "endOffset": 28206
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 4478,
+                        "endColumn": 60,
+                        "endOffset": 4534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 28211,
+                    "endColumn": 104,
+                    "endOffset": 28311
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 4539,
+                        "endColumn": 104,
+                        "endOffset": 4639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 28316,
+                    "endColumn": 104,
+                    "endOffset": 28416
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 4644,
+                        "endColumn": 104,
+                        "endOffset": 4744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 28421,
+                    "endColumn": 105,
+                    "endOffset": 28522
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 4749,
+                        "endColumn": 105,
+                        "endOffset": 4850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 412,
+                    "startColumn": 4,
+                    "startOffset": 28527,
+                    "endColumn": 84,
+                    "endOffset": 28607
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 4855,
+                        "endColumn": 84,
+                        "endOffset": 4935
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 413,
+                    "startColumn": 4,
+                    "startOffset": 28612,
+                    "endColumn": 107,
+                    "endOffset": 28715
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 4940,
+                        "endColumn": 107,
+                        "endOffset": 5043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 414,
+                    "startColumn": 4,
+                    "startOffset": 28720,
+                    "endColumn": 389,
+                    "endOffset": 29105
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 5048,
+                        "endColumn": 389,
+                        "endOffset": 5433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 415,
+                    "startColumn": 4,
+                    "startOffset": 29110,
+                    "endColumn": 64,
+                    "endOffset": 29170
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 5438,
+                        "endColumn": 64,
+                        "endOffset": 5498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 416,
+                    "startColumn": 4,
+                    "startOffset": 29175,
+                    "endColumn": 117,
+                    "endOffset": 29288
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 5503,
+                        "endColumn": 117,
+                        "endOffset": 5616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 417,
+                    "startColumn": 4,
+                    "startOffset": 29293,
+                    "endColumn": 100,
+                    "endOffset": 29389
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2071,
+                        "endColumn": 100,
+                        "endOffset": 2167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 418,
+                    "startColumn": 4,
+                    "startOffset": 29394,
+                    "endColumn": 58,
+                    "endOffset": 29448
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.8/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 419,
+                    "startColumn": 4,
+                    "startOffset": 29453,
+                    "endColumn": 58,
+                    "endOffset": 29507
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 457,
+                        "endColumn": 58,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 420,
+                    "startColumn": 4,
+                    "startOffset": 29512,
+                    "endColumn": 75,
+                    "endOffset": 29583
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 75,
+                        "endOffset": 587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 421,
+                    "startColumn": 4,
+                    "startOffset": 29588,
+                    "endColumn": 61,
+                    "endOffset": 29645
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 592,
+                        "endColumn": 61,
+                        "endOffset": 649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 422,
+                    "startColumn": 4,
+                    "startOffset": 29650,
+                    "endColumn": 75,
+                    "endOffset": 29721
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.8/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 75,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 423,
+                    "startColumn": 4,
+                    "startOffset": 29726,
+                    "endColumn": 56,
+                    "endOffset": 29778
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.8/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 56,
+                        "endOffset": 242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 424,
+                    "startColumn": 4,
+                    "startOffset": 29783,
+                    "endColumn": 44,
+                    "endOffset": 29823
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 654,
+                        "endColumn": 44,
+                        "endOffset": 694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 29828,
+                    "endColumn": 46,
+                    "endOffset": 29870
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 699,
+                        "endColumn": 46,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 29875,
+                    "endColumn": 68,
+                    "endOffset": 29939
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 68,
+                        "endOffset": 810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 29944,
+                    "endColumn": 65,
+                    "endOffset": 30005
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 815,
+                        "endColumn": 65,
+                        "endOffset": 876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 428,
+                    "startColumn": 4,
+                    "startOffset": 30010,
+                    "endColumn": 54,
+                    "endOffset": 30060
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 881,
+                        "endColumn": 54,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 429,
+                    "startColumn": 4,
+                    "startOffset": 30065,
+                    "endColumn": 68,
+                    "endOffset": 30129
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 936,
+                        "endColumn": 68,
+                        "endOffset": 1000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 430,
+                    "startColumn": 4,
+                    "startOffset": 30134,
+                    "endColumn": 128,
+                    "endOffset": 30258
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1005,
+                        "endColumn": 128,
+                        "endOffset": 1129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 431,
+                    "startColumn": 4,
+                    "startOffset": 30263,
+                    "endColumn": 299,
+                    "endOffset": 30558
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.8/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 247,
+                        "endColumn": 299,
+                        "endOffset": 542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 432,
+                    "startColumn": 4,
+                    "startOffset": 30563,
+                    "endColumn": 76,
+                    "endOffset": 30635
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.8/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 547,
+                        "endColumn": 76,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 433,
+                    "startColumn": 4,
+                    "startOffset": 30640,
+                    "endColumn": 87,
+                    "endOffset": 30723
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1134,
+                        "endColumn": 87,
+                        "endOffset": 1217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 434,
+                    "startColumn": 4,
+                    "startOffset": 30728,
+                    "endColumn": 60,
+                    "endOffset": 30784
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1222,
+                        "endColumn": 60,
+                        "endOffset": 1278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 435,
+                    "startColumn": 4,
+                    "startOffset": 30789,
+                    "endColumn": 75,
+                    "endOffset": 30860
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1283,
+                        "endColumn": 75,
+                        "endOffset": 1354
+                    }
+                }
+            }
+        ]
+    }
+]

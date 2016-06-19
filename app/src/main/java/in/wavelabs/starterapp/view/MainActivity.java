@@ -22,19 +22,20 @@ import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
+import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
+import com.nbos.capi.modules.media.v0.MediaApiModel;
 import com.squareup.picasso.Picasso;
+import com.thefinestartist.utils.preferences.Pref;
 
 import java.util.List;
 
+import in.wavelabs.idn.ConnectionAPI.AuthApi;
+import in.wavelabs.idn.ConnectionAPI.MediaApi;
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
+import in.wavelabs.idn.utils.TokenPrefrences;
 import in.wavelabs.starterapp.R;
 import in.wavelabs.starterapp.util.CircleTransform;
-import in.wavelabs.startersdk.ConnectionAPI.AuthApi;
-import in.wavelabs.startersdk.ConnectionAPI.MediaApi;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.DataModel.media.MediaApiModel;
-import in.wavelabs.startersdk.DataModel.member.NewMemberApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
-import in.wavelabs.startersdk.Utils.Prefrences;
+import in.wavelabs.starterapp.util.Prefrences;
 import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity
@@ -79,15 +80,17 @@ public class MainActivity extends AppCompatActivity
         final ImageView profilePic = (ImageView) headerView.findViewById(R.id.profile);
         name.setText(Prefrences.getFirstName(MainActivity.this) + " " + Prefrences.getLastName(MainActivity.this));
         email.setText(Prefrences.getEmailId(MainActivity.this));
-        MediaApi.getProfileImage(MainActivity.this, new NBOSCallback<MediaApiModel>() {
+        MediaApi.getProfileImage(MainActivity.this, Prefrences.getUserId(MainActivity.this), new NBOSCallback<MediaApiModel>() {
             @Override
-            public void onSuccess(Response<MediaApiModel> response) {
-                Picasso.with(MainActivity.this).load(response.body()
-                        .getMediaFileDetailsList()
-                        .get(1).getMediapath())
-                        .transform(new CircleTransform())
-                        .placeholder(R.mipmap.ic_account_circle_white_48dp)
-                        .into(profilePic);
+            public void onResponse(Response<MediaApiModel> response) {
+                if(response.body() != null) {
+                    Picasso.with(MainActivity.this).load(response.body()
+                            .getMediaFileDetailsList()
+                            .get(1).getMediapath())
+                            .transform(new CircleTransform())
+                            .placeholder(R.mipmap.ic_account_circle_white_48dp)
+                            .into(profilePic);
+                }
 
             }
 
@@ -96,21 +99,6 @@ public class MainActivity extends AppCompatActivity
                 System.out.println(t);
                 Toast.makeText(MainActivity.this,R.string.networkError, Toast.LENGTH_SHORT).show();
 
-
-            }
-
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
 
             }
 
@@ -144,7 +132,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
-            logout(Prefrences.getAccessToken(this));
+            logout(TokenPrefrences.getAccessToken(this));
         }
 
         return super.onOptionsItemSelected(item);
@@ -195,7 +183,7 @@ public class MainActivity extends AppCompatActivity
             transaction.commit();
 
         } else if (id == R.id.nav_logout) {
-            logout(Prefrences.getAccessToken(this));
+            logout(TokenPrefrences.getAccessToken(this));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -207,7 +195,7 @@ public class MainActivity extends AppCompatActivity
 
         AuthApi.logout(MainActivity.this, authorization, new NBOSCallback<NewMemberApiModel>() {
             @Override
-            public void onSuccess(Response<NewMemberApiModel> response) {
+            public void onResponse(Response<NewMemberApiModel> response) {
                 if(response.isSuccessful()) {
                     Intent i = new Intent(MainActivity.this, AuthActivity.class);
                     startActivity(i);
@@ -229,20 +217,6 @@ public class MainActivity extends AppCompatActivity
 
             }
 
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
-
-            }
 
 
         });

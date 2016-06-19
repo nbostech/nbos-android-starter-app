@@ -13,14 +13,13 @@ import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Email;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
+import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
 
 import java.util.List;
 
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
+import in.wavelabs.idn.ConnectionAPI.SocialApi;
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.ConnectionAPI.SocialApi;
-import in.wavelabs.startersdk.DataModel.member.NewMemberApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
 import retrofit2.Response;
 
 /**
@@ -88,7 +87,7 @@ public class DigitsCreateAccount extends AppCompatActivity implements Validator.
 
 
                     @Override
-                    public void onSuccess(Response<NewMemberApiModel> response) {
+                    public void onResponse(Response<NewMemberApiModel> response) {
                         Intent i = new Intent(DigitsCreateAccount.this, MainActivity.class);
                         startActivity(i);
                         DigitsCreateAccount.this.overridePendingTransition(0, 0);
@@ -99,20 +98,6 @@ public class DigitsCreateAccount extends AppCompatActivity implements Validator.
 
                     }
 
-                    @Override
-                    public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-                    }
-
-                    @Override
-                    public void authenticationError(String authenticationError) {
-
-                    }
-
-                    @Override
-                    public void unknownError(String unknownError) {
-
-                    }
                 });
     }
 }

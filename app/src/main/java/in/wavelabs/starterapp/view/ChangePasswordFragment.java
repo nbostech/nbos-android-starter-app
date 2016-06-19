@@ -12,14 +12,13 @@ import android.widget.Toast;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Password;
+import com.nbos.capi.api.v0.RestMessage;
 
 import java.util.List;
 
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.ConnectionAPI.AuthApi;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.DataModel.validation.MessagesApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
+import in.wavelabs.idn.ConnectionAPI.AuthApi;
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
 import retrofit2.Response;
 
 
@@ -49,10 +48,10 @@ Validator validator;
         return v;
     }
     private void changePassword(String oldPassword, String newPassword){
-        AuthApi.changePassword(getActivity(), oldPassword, newPassword, new NBOSCallback<MessagesApiModel>() {
+        AuthApi.changePassword(getActivity(), oldPassword, newPassword, new NBOSCallback<RestMessage>() {
 
             @Override
-            public void onSuccess(Response<MessagesApiModel> response) {
+            public void onResponse(Response<RestMessage> response) {
                 Toast.makeText(getActivity(),R.string.success,Toast.LENGTH_SHORT).show();
 
             }
@@ -62,23 +61,6 @@ Validator validator;
                 Toast.makeText(getActivity(),R.string.networkError,Toast.LENGTH_SHORT).show();
             }
 
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-                Toast.makeText(getActivity(),R.string.validationError,Toast.LENGTH_SHORT).show();
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-                Toast.makeText(getActivity(),R.string.authenticationError,Toast.LENGTH_SHORT).show();
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
-                Toast.makeText(getActivity(),R.string.unknownError,Toast.LENGTH_SHORT).show();
-
-            }
         });
 
     }

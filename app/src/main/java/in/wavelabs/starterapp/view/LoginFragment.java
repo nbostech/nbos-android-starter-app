@@ -43,6 +43,7 @@ import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
+import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterAuthToken;
 import com.twitter.sdk.android.core.TwitterCore;
@@ -51,13 +52,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import in.wavelabs.idn.ConnectionAPI.AuthApi;
+import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
+import in.wavelabs.idn.ConnectionAPI.SocialApi;
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.ConnectionAPI.AuthApi;
-import in.wavelabs.startersdk.ConnectionAPI.NBOSCallback;
-import in.wavelabs.startersdk.ConnectionAPI.SocialApi;
-import in.wavelabs.startersdk.DataModel.member.NewMemberApiModel;
-import in.wavelabs.startersdk.DataModel.validation.ValidationMessagesApiModel;
-import in.wavelabs.startersdk.Utils.Prefrences;
+import in.wavelabs.starterapp.util.Prefrences;
 import io.fabric.sdk.android.Fabric;
 import retrofit2.Response;
 
@@ -424,9 +423,12 @@ public class LoginFragment extends Fragment implements
         AuthApi.login(getActivity(), emailEditText.getText().toString(),passwordEditText.getText().toString(),
                 new NBOSCallback<NewMemberApiModel>() {
                     @Override
-                    public void onSuccess(Response<NewMemberApiModel> response) {
+                    public void onResponse(Response<NewMemberApiModel> response) {
                         if(response.isSuccessful()){
-
+                            Prefrences.setUserId(getActivity(), response.body().getMember().getUuid());
+                            Prefrences.setFirstName(getActivity(), response.body().getMember().getFirstName());
+                            Prefrences.setLastName(getActivity(),response.body().getMember().getLastName());
+                            Prefrences.setEmailId(getActivity(), response.body().getMember().getEmail());
                             Intent i = new Intent(getActivity(), MainActivity.class);
 
                             startActivity(i);
@@ -439,20 +441,6 @@ public class LoginFragment extends Fragment implements
 
                     }
 
-                    @Override
-                    public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-                    }
-
-                    @Override
-                    public void authenticationError(String authenticationError) {
-
-                    }
-
-                    @Override
-                    public void unknownError(String unknownError) {
-
-                    }
 
 
                 });
@@ -462,7 +450,7 @@ public class LoginFragment extends Fragment implements
     private void connect(String service, String accessToken){
         SocialApi.socialConnect(getActivity(),accessToken, service, new NBOSCallback<NewMemberApiModel>() {
             @Override
-            public void onSuccess(Response<NewMemberApiModel> response) {
+            public void onResponse(Response<NewMemberApiModel> response) {
                 Intent i = new Intent(getActivity(), MainActivity.class);
                 startActivity(i);
                 getActivity().overridePendingTransition(0, 0);
@@ -475,21 +463,6 @@ public class LoginFragment extends Fragment implements
 
             }
 
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
-
-            }
-
 
         });
     }
@@ -498,7 +471,7 @@ public class LoginFragment extends Fragment implements
         SocialApi.authorizeAndConnect(getActivity(), service, authCode, "", new NBOSCallback<NewMemberApiModel>() {
 
             @Override
-            public void onSuccess(Response<NewMemberApiModel> response) {
+            public void onResponse(Response<NewMemberApiModel> response) {
                 System.out.println(response);
 
                 Intent i = new Intent(getActivity(), MainActivity.class);
@@ -508,21 +481,6 @@ public class LoginFragment extends Fragment implements
             @Override
             public void onFailure(Throwable t) {
                 Toast.makeText(getActivity(),R.string.networkError, Toast.LENGTH_SHORT).show();
-
-            }
-
-            @Override
-            public void onValidationError(List<ValidationMessagesApiModel> validationError) {
-
-            }
-
-            @Override
-            public void authenticationError(String authenticationError) {
-
-            }
-
-            @Override
-            public void unknownError(String unknownError) {
 
             }
 

@@ -10,8 +10,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+import in.wavelabs.idn.utils.TokenPrefrences;
 import in.wavelabs.starterapp.R;
-import in.wavelabs.startersdk.Utils.Prefrences;
 
 
 public class SplashScreen extends AppCompatActivity {
@@ -28,7 +28,7 @@ public class SplashScreen extends AppCompatActivity {
         calendar.setTime(date);   // assigns calendar to given date
 
         int SPLASH_TIME_OUT = 2000;
-        if (Prefrences.getAccessToken(this).equals("")) {
+        if (TokenPrefrences.getAccessToken(this).equals("")) {
 
 
             new Handler().postDelayed(new Runnable() {

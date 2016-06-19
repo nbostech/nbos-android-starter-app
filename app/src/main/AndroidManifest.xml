@@ -82,10 +82,10 @@
             android:name="com.facebook.sdk.ApplicationName"
             android:value="@string/app_name" />
         <meta-data
-            android:name="in.wavelabs.startersdk.WAVELABS_CLIENT_ID"
+            android:name="in.wavelabs.idn.WAVELABS_CLIENT_ID"
             android:value="@string/wavelabs_app_id" />
         <meta-data
-            android:name="in.wavelabs.startersdk.WAVELABS_CLIENT_SECRET"
+            android:name="in.wavelabs.idn.WAVELABS_CLIENT_SECRET"
             android:value="@string/wavelabs_app_secret" />
 
         <activity

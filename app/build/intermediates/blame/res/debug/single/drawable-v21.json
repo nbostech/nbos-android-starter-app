@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/selector_light_theme_holo.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.thefinestartist/finestwebview/1.2.7/res/drawable-v21/selector_light_theme_holo.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/com_accountkit_input_cursor.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.12.0/res/drawable-v21/com_accountkit_input_cursor.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/selector_dark_theme_holo.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.thefinestartist/finestwebview/1.2.7/res/drawable-v21/selector_dark_theme_holo.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/selector_dark_theme.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.thefinestartist/finestwebview/1.2.7/res/drawable-v21/selector_dark_theme.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/tw__like_action.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.3/res/drawable-v21/tw__like_action.xml"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/res/merged/debug/drawable-v21/selector_light_theme.xml",
+        "source": "/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/exploded-aar/com.thefinestartist/finestwebview/1.2.7/res/drawable-v21/selector_light_theme.xml"
+    }
+]

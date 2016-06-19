@@ -1,0 +1,4 @@
+com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule
+
+com.fasterxml.jackson.datatype.joda.JodaModule
+

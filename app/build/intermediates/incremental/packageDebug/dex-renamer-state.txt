@@ -1,0 +1,7 @@
+#Sat Jun 18 16:19:01 IST 2016
+base.0=/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c91987853e610f91779c78a0ae276c0d97a1f578
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4e421c8a878326cc456f66a9f7f816374d4246b3/classes.dex
+base.1=/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4e421c8a878326cc456f66a9f7f816374d4246b3
+file.0=/Users/vivekkiran/Desktop/wavelabs-android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c91987853e610f91779c78a0ae276c0d97a1f578/classes.dex

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="com_accountkit_phone_country_codes">
+        <item>376:AD:Andorra</item>
+        <item>971:AE:Spojené arabské emiráty</item>
+        <item>93:AF:Afganistan</item>
+        <item>1:AG:Antigua</item>
+        <item>1:AI:Anguilla</item>
+        <item>355:AL:Albánsko</item>
+        <item>374:AM:Arménsko</item>
+        <item>244:AO:Angola</item>
+        <item>54:AR:Argentína</item>
+        <item>1:AS:Americká Samoa</item>
+        <item>43:AT:Rakúsko</item>
+        <item>61:AU:Austrália</item>
+        <item>297:AW:Aruba</item>
+        <item>994:AZ:Azerbajdžan</item>
+        <item>387:BA:Bosna a Hercegovina</item>
+        <item>1:BB:Barbados</item>
+        <item>880:BD:Bangladéš</item>
+        <item>32:BE:Belgicko</item>
+        <item>226:BF:Burkina Faso</item>
+        <item>359:BG:Bulharsko</item>
+        <item>973:BH:Bahrajn</item>
+        <item>257:BI:Burundi</item>
+        <item>229:BJ:Benin</item>
+        <item>1:BM:Bermudy</item>
+        <item>673:BN:Brunej</item>
+        <item>591:BO:Bolívia</item>
+        <item>599:BQ:Bonaire, Sint Eustatius a Saba</item>
+        <item>55:BR:Brazília</item>
+        <item>1:BS:Bahamy</item>
+        <item>975:BT:Bhután</item>
+        <item>267:BW:Botswana</item>
+        <item>375:BY:Bielorusko</item>
+        <item>501:BZ:Belize</item>
+        <item>1:CA:Kanada</item>
+        <item>243:CD:Konžská demokratická republika</item>
+        <item>236:CF:Stredoafrická republika</item>
+        <item>242:CG:Konžská republika</item>
+        <item>41:CH:Švajčiarsko</item>
+        <item>225:CI:Pobrežie Slonoviny</item>
+        <item>682:CK:Cookove ostrovy</item>
+        <item>56:CL:Čile</item>
+        <item>237:CM:Kamerun</item>
+        <item>86:CN:Čína</item>
+        <item>57:CO:Kolumbia</item>
+        <item>506:CR:Kostarika</item>
+        <item>53:CU:Kuba</item>
+        <item>238:CV:Kapverdy</item>
+        <item>599:CW:Curaçao</item>
+        <item>357:CY:Cyprus</item>
+        <item>420:CZ:Česká republika</item>
+        <item>49:DE:Nemecko</item>
+        <item>253:DJ:Džibutsko</item>
+        <item>45:DK:Dánsko</item>
+        <item>1:DM:Dominika</item>
+        <item>1:DO:Dominikánska republika</item>
+        <item>213:DZ:Alžírsko</item>
+        <item>593:EC:Ekvádor</item>
+        <item>372:EE:Estónsko</item>
+        <item>20:EG:Egypt</item>
+        <item>212:EH:Západná Sahara</item>
+        <item>291:ER:Eritrea</item>
+        <item>34:ES:Španielsko</item>
+        <item>251:ET:Etiópia</item>
+        <item>358:FI:Fínsko</item>
+        <item>679:FJ:Fidži</item>
+        <item>500:FK:Falklandské ostrovy</item>
+        <item>691:FM:Mikronézske federatívne štáty</item>
+        <item>298:FO:Faerské ostrovy</item>
+        <item>33:FR:Francúzsko</item>
+        <item>241:GA:Gabon</item>
+        <item>44:GB:Spojené kráľovstvo</item>
+        <item>1:GD:Grenada</item>
+        <item>995:GE:Gruzínsko</item>
+        <item>594:GF:Francúzska Guayana</item>
+        <item>44:GG:Guernsey</item>
+        <item>233:GH:Ghana</item>
+        <item>350:GI:Gibraltár</item>
+        <item>299:GL:Grónsko</item>
+        <item>220:GM:Gambia</item>
+        <item>224:GN:Guinea</item>
+        <item>590:GP:Guadeloupe</item>
+        <item>240:GQ:Rovníková Guinea</item>
+        <item>30:GR:Grécko</item>
+        <item>502:GT:Guatemala</item>
+        <item>1:GU:Guam</item>
+        <item>245:GW:Guinea-Bissau</item>
+        <item>592:GY:Guyana</item>
+        <item>852:HK:Hongkong</item>
+        <item>504:HN:Honduras</item>
+        <item>385:HR:Chorvátsko</item>
+        <item>509:HT:Haiti</item>
+        <item>36:HU:Maďarsko</item>
+        <item>62:ID:Indonézia</item>
+        <item>353:IE:Írsko</item>
+        <item>972:IL:Izrael</item>
+        <item>44:IM:Ostrov Man</item>
+        <item>91:IN:India</item>
+        <item>246:IO:Britské indickooceánske územie</item>
+        <item>964:IQ:Irak</item>
+        <item>98:IR:Irán</item>
+        <item>354:IS:Island</item>
+        <item>39:IT:Taliansko</item>
+        <item>44:JE:Jersey</item>
+        <item>1:JM:Jamajka</item>
+        <item>962:JO:Jordánsko</item>
+        <item>81:JP:Japonsko</item>
+        <item>254:KE:Keňa</item>
+        <item>996:KG:Kirgizsko</item>
+        <item>855:KH:Kambodža</item>
+        <item>686:KI:Kiribati</item>
+        <item>269:KM:Komory</item>
+        <item>1:KN:Svätý Krištof a Nevis</item>
+        <item>850:KP:Severná Kórea</item>
+        <item>82:KR:Južná Kórea</item>
+        <item>965:KW:Kuvajt</item>
+        <item>1:KY:Kajmanské ostrovy</item>
+        <item>7:KZ:Kazachstan</item>
+        <item>856:LA:Laos</item>
+        <item>961:LB:Libanon</item>
+        <item>1:LC:Svätá Lucia</item>
+        <item>423:LI:Lichtenštajnsko</item>
+        <item>94:LK:Srí Lanka</item>
+        <item>231:LR:Libéria</item>
+        <item>266:LS:Lesotho</item>
+        <item>370:LT:Litva</item>
+        <item>352:LU:Luxembursko</item>
+        <item>371:LV:Lotyšsko</item>
+        <item>218:LY:Líbya</item>
+        <item>212:MA:Maroko</item>
+        <item>377:MC:Monako</item>
+        <item>373:MD:Moldavsko</item>
+        <item>382:ME:Čierna Hora</item>
+        <item>261:MG:Madagaskar</item>
+        <item>692:MH:Marshallove ostrovy</item>
+        <item>389:MK:Macedónsko</item>
+        <item>223:ML:Mali</item>
+        <item>95:MM:Mjanmarsko</item>
+        <item>976:MN:Mongolsko</item>
+        <item>853:MO:Makao</item>
+        <item>1:MP:Severné Mariány</item>
+        <item>596:MQ:Martinik</item>
+        <item>222:MR:Mauretánia</item>
+        <item>1:MS:Montserrat</item>
+        <item>356:MT:Malta</item>
+        <item>230:MU:Maurícius</item>
+        <item>960:MV:Maldivy</item>
+        <item>265:MW:Malawi</item>
+        <item>52:MX:Mexiko</item>
+        <item>60:MY:Malajzia</item>
+        <item>258:MZ:Mozambik</item>
+        <item>264:NA:Namíbia</item>
+        <item>687:NC:Nová Kaledónia</item>
+        <item>227:NE:Niger</item>
+        <item>672:NF:Norfolk</item>
+        <item>234:NG:Nigéria</item>
+        <item>505:NI:Nikaragua</item>
+        <item>31:NL:Holandsko</item>
+        <item>47:NO:Nórsko</item>
+        <item>977:NP:Nepál</item>
+        <item>674:NR:Nauru</item>
+        <item>683:NU:Niue</item>
+        <item>64:NZ:Nový Zéland</item>
+        <item>968:OM:Omán</item>
+        <item>507:PA:Panama</item>
+        <item>51:PE:Peru</item>
+        <item>689:PF:Francúzska Polynézia</item>
+        <item>675:PG:Papua-Nová Guinea</item>
+        <item>63:PH:Filipíny</item>
+        <item>92:PK:Pakistan</item>
+        <item>48:PL:Poľsko</item>
+        <item>508:PM:Saint Pierre a Miquelon</item>
+        <item>1:PR:Portoriko</item>
+        <item>970:PS:Palestína</item>
+        <item>351:PT:Portugalsko</item>
+        <item>680:PW:Palau</item>
+        <item>595:PY:Paraguaj</item>
+        <item>974:QA:Katar</item>
+        <item>262:RE:Réunion</item>
+        <item>40:RO:Rumunsko</item>
+        <item>381:RS:Srbsko</item>
+        <item>7:RU:Rusko</item>
+        <item>250:RW:Rwanda</item>
+        <item>966:SA:Saudská Arábia</item>
+        <item>677:SB:Šalamúnove ostrovy</item>
+        <item>248:SC:Seychely</item>
+        <item>249:SD:Sudán</item>
+        <item>46:SE:Švédsko</item>
+        <item>65:SG:Singapur</item>
+        <item>290:SH:Svätá Helena</item>
+        <item>386:SI:Slovinsko</item>
+        <item>421:SK:Slovensko</item>
+        <item>232:SL:Sierra Leone</item>
+        <item>378:SM:San Maríno</item>
+        <item>221:SN:Senegal</item>
+        <item>252:SO:Somálsko</item>
+        <item>597:SR:Surinam</item>
+        <item>211:SS:Južný Sudán</item>
+        <item>239:ST:Svätý Tomáš a Princov ostrov</item>
+        <item>503:SV:Salvádor</item>
+        <item>1:SX:Sint Maarten</item>
+        <item>963:SY:Sýria</item>
+        <item>268:SZ:Svazijsko</item>
+        <item>1:TC:Ostrovy Turks a Caicos</item>
+        <item>235:TD:Čad</item>
+        <item>228:TG:Togo</item>
+        <item>66:TH:Thajsko</item>
+        <item>992:TJ:Tadžikistan</item>
+        <item>690:TK:Tokelau</item>
+        <item>670:TL:Východný Timor</item>
+        <item>993:TM:Turkmenistan</item>
+        <item>216:TN:Tunisko</item>
+        <item>676:TO:Tonga</item>
+        <item>90:TR:Turecko</item>
+        <item>1:TT:Trinidad a Tobago</item>
+        <item>688:TV:Tuvalu</item>
+        <item>886:TW:Taiwan</item>
+        <item>255:TZ:Tanzánia</item>
+        <item>380:UA:Ukrajina</item>
+        <item>256:UG:Uganda</item>
+        <item>1:US:USA</item>
+        <item>598:UY:Uruguaj</item>
+        <item>998:UZ:Uzbekistan</item>
+        <item>1:VC:Svätý Vincent a Grenadíny</item>
+        <item>58:VE:Venezuela</item>
+        <item>1:VG:Britské Panenské ostrovy</item>
+        <item>1:VI:Americké Panenské ostrovy</item>
+        <item>84:VN:Vietnam</item>
+        <item>678:VU:Vanuatu</item>
+        <item>681:WF:Wallis a Futuna</item>
+        <item>685:WS:Samoa</item>
+        <item>967:YE:Jemen</item>
+        <item>262:YT:Mayotte</item>
+        <item>27:ZA:Južná Afrika</item>
+        <item>260:ZM:Zambia</item>
+        <item>263:ZW:Zimbabwe</item>
+    </string-array>
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Prejsť na plochu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Prejsť hore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Ďalšie možnosti"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobraziť všetko"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Zvoľte aplikáciu"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"VYP."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ZAP."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Vyhľadať…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Vymazať dopyt"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhľadávací dopyt"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hľadať"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odoslať dopyt"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhľadávanie"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Zdieľať pomocou"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Zdieľať pomocou %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <string name="com_accountkit_button_begin">Začať</string>
+    <string name="com_accountkit_button_cancel">Zrušiť</string>
+    <string name="com_accountkit_button_confirm">Potvrdiť</string>
+    <string name="com_accountkit_button_continue">Pokračovať</string>
+    <string name="com_accountkit_button_log_in">Prihlásiť sa</string>
+    <string name="com_accountkit_button_next">Ďalej</string>
+    <string name="com_accountkit_button_ok">OK</string>
+    <string name="com_accountkit_button_resend">Poslať nový kód</string>
+    <string name="com_accountkit_button_resend_sms">Poslať SMS znova</string>
+    <string name="com_accountkit_button_send">Poslať</string>
+    <string name="com_accountkit_button_send_code_in_fb">Poslať kód vo Facebooku</string>
+    <string name="com_accountkit_button_send_code_in_fb_disclosure">Ťuknite na Poslať kód na Facebooku, ak chcete, aby sa poslalo upozornenie na účet na Facebooku prepojený s telefónnym číslom, ktoré ste zadali.</string>
+    <string name="com_accountkit_button_start">Štart</string>
+    <string name="com_accountkit_button_start_over">Skúsiť znova</string>
+    <string name="com_accountkit_button_submit">Odoslať</string>
+    <string name="com_accountkit_check_email">Otvorte svoj e-mail</string>
+    <string name="com_accountkit_confirmation_code_agreement">
+        Ťuknutím na %1$s vyjadríte súhlas s &lt;a href="%2$s">Podmienkami&lt;/a> Facebooku a jeho &lt;a href="%3$s">Zásadami využívania údajov&lt;/a> vrátane &lt;a href="%4$s">používania cookies&lt;/a>.
+    </string>
+    <string name="com_accountkit_confirmation_code_agreement_app_privacy_policy">
+        Ťuknutím na %1$s vyjadríte súhlas s &lt;a href="%2$s">Podmienkami&lt;/a> Facebooku a jeho &lt;a href="%3$s">Zásadami využívania údajov&lt;/a> vrátane &lt;a href="%4$s">používania cookies&lt;/a>, a tiež so &lt;a href="%5$s">Zásadami ochrany súkromia&lt;/a> služby %6$s.
+    </string>
+    <string name="com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms">
+        Ťuknutím na %1$s vyjadríte súhlas s &lt;a href="%2$s">Podmienkami&lt;/a> Facebooku a jeho &lt;a href="%3$s">Zásadami využívania údajov&lt;/a> vrátane &lt;a href="%4$s">používania cookies&lt;/a>, a tiež so &lt;a href="%5$s">Zásadami ochrany súkromia&lt;/a> a &lt;a href="%6$s">Zmluvnými podmienkami&lt;/a> služby %7$s.
+    </string>
+    <string name="com_accountkit_confirmation_code_text">Poslať nový kód</string>
+    <string name="com_accountkit_confirmation_code_title">Zadajte svoj kód</string>
+    <string name="com_accountkit_email_invalid">Táto e-mailová adresa je nesprávna. Skúste znova.</string>
+    <string name="com_accountkit_email_loading_title">Posiela sa e-mail…</string>
+    <string name="com_accountkit_email_login_retry_title">Potvrďte svoju e-mailovú adresu</string>
+    <string name="com_accountkit_email_login_text">
+        Ťuknite na %1$s, aby ste dostali potvrdzujúci e-mail od služby Account Kit s technológiou Facebooku. %2$s to používa na vašu registráciu, nepotrebujete však mať účet na Facebooku. &lt;a href="%3$s">Prečítajte si viac.&lt;/a>
+    </string>
+    <string name="com_accountkit_email_login_title">Zadajte svoju e-mailovú adresu</string>
+    <string name="com_accountkit_email_not_received">Poslať e-mail znova</string>
+    <string name="com_accountkit_email_verify_title">Otvorte e-mail, ktorý sme vám poslali, a potvrďte svoju adresu</string>
+    <string name="com_accountkit_error_title">Ľutujeme, vyskytol sa nejaký problém.</string>
+    <string name="com_accountkit_facebook_code_entry_title">Zadajte svoj kód od Facebooku</string>
+    <string name="com_accountkit_phone_loading_title">Posiela sa vám kód…</string>
+    <string name="com_accountkit_phone_login_retry_title">Potvrďte svoje telefónne číslo</string>
+    <string name="com_accountkit_phone_login_text">
+        Ťuknite na %1$s, aby ste dostali potvrdzujúcu SMS od služby Account Kit s technológiou Facebooku. %2$s to používa na vašu registráciu, nepotrebujete však mať účet na Facebooku. Môžu sa účtovať poplatky za SMS a dáta. &lt;a href="%3$s">Prečítajte si viac.&lt;/a>
+    </string>
+    <string name="com_accountkit_phone_login_title">Zadajte svoje telefónne číslo</string>
+    <string name="com_accountkit_resend_email_text">Poslať nový e-mail</string>
+    <string name="com_accountkit_resend_title">Ľutujeme. Na pokračovanie vyskúšajte tieto možnosti.</string>
+    <string name="com_accountkit_return_title">Prechádzate späť na %1$s…</string>
+    <string name="com_accountkit_sent_title">Odoslané!</string>
+    <string name="com_accountkit_success_title">Hotovo!</string>
+    <string name="com_accountkit_toolbar_title">Prihlásiť sa do účtu %1$s</string>
+    <string name="com_accountkit_verify_confirmation_code_title">
+        Váš kód sa nepodarilo overiť. Skúste to znova:
+    </string>
+    <string name="com_accountkit_verify_title">Overuje sa váš potvrdzovací kód…</string>
+    <string name="com_facebook_device_auth_instructions">Navštívte %@ v smartfóne alebo počítači a zadajte tento kód:</string>
+    <string name="com_facebook_image_download_unknown_error">Pri sťahovaní obrázka sa vyskytla neočakávaná chyba.</string>
+    <string name="com_facebook_internet_permission_error_message">Na prihlásenie sa v rozhraní WebView sa vyžaduje povolenie pre INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Chyba súboru AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Páči sa mi to</string>
+    <string name="com_facebook_like_button_not_liked">Páči sa mi to</string>
+    <string name="com_facebook_loading">Načítava sa...</string>
+    <string name="com_facebook_loginview_cancel_action">Zrušiť</string>
+    <string name="com_facebook_loginview_log_in_button">Prihlásiť sa</string>
+    <string name="com_facebook_loginview_log_in_button_long">Prihlásiť sa cez Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Odhlásiť sa</string>
+    <string name="com_facebook_loginview_log_out_button">Odhlásiť sa</string>
+    <string name="com_facebook_loginview_logged_in_as">Prihlásený ako: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Prihlásený cez Facebook</string>
+    <string name="com_facebook_send_button_text">Odoslať</string>
+    <string name="com_facebook_share_button_text">Zdieľať</string>
+    <string name="com_facebook_tooltip_default">Novinka! Máte to pod kontrolou: vyberte, ktoré informácie chcete zdieľať s aplikáciami.</string>
+    <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> vyžaduje minimálne jednu službu Google Play, ktorá v súčasnosti nie je k dispozícii. Kontaktujte príslušného vývojára a požiadajte ho o pomoc."</string>
+    <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Povoliť služby Google Play"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> bude fungovať až po povolení služieb Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Povoliť služby Google Play"</string>
+    <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Inštalovať služby Google Play"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré na telefóne nemáte."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré na tablete nemáte."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Inštalovať služby Google Play"</string>
+    <string msgid="479501935061677276" name="common_google_play_services_invalid_account_text">"Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet."</string>
+    <string msgid="5775407690646375078" name="common_google_play_services_invalid_account_title">"Neplatný účet"</string>
+    <string msgid="6857745590248226927" name="common_google_play_services_network_error_text">"Pripojenie k službám Google Play vyžaduje dátové pripojenie."</string>
+    <string msgid="4183541461338112307" name="common_google_play_services_network_error_title">"Chyba siete"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Chyba služieb Google Play"</string>
+    <string msgid="8897126254633757462" name="common_google_play_services_resolution_required_text">"Dokončite akciu požadovanú aplikáciou <ns1:g id="APP_NAME">%1$s</ns1:g>."</string>
+    <string msgid="7524004365913123453" name="common_google_play_services_resolution_required_title">"Služby Google Play vyžadujú akciu"</string>
+    <string msgid="3111284987662714014" name="common_google_play_services_restricted_profile_text">"Prístup k účtom z obmedzeného profilu nie je podporovaný."</string>
+    <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Obmedzený profil"</string>
+    <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"Pri prihlasovaní do určeného účtu sa vyskytla chyba. Zvoľte iný účet."</string>
+    <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Prihlásenie zlyhalo"</string>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> má problémy so službami Google Play. Ak problém pretrváva, kontaktujte vývojára a požiadajte ho o pomoc."</string>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> potrebuje služby Google Play, ktoré vaše zariadenie nepodporuje. Kontaktujte príslušného výrobcu a požiadajte ho o pomoc."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Služby Google Play"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualizovať"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Aplikáciu <ns1:g id="APP_NAME">%1$s</ns1:g> bude možné spustiť až po aktualizácii služieb Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Aktualizácia služieb Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Služby Google Play sa aktualizujú"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Otvoriť v telefóne"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Prihlásiť sa"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Prihlásiť sa do účtu Google"</string>
+    <string name="dgts__call_me">Zavolať mi</string>
+    <string name="dgts__calling">Vytáča sa…</string>
+    <string name="dgts__confirmation_code">Potvrdzovací kód</string>
+    <string name="dgts__confirmation_edit_hint">Zadajte 6-miestny kód, ktorý sme vám odoslali</string>
+    <string name="dgts__confirmation_error">Nepodarilo sa potvrdiť vaše telefónne číslo</string>
+    <string name="dgts__confirmation_error_alternative">Ľutujeme, pri odosielaní potvrdzovacieho kódu sa vyskytol problém.</string>
+    <string name="dgts__confirmation_expired">Platnosť tohto kódu uplynula. Odošlite potvrdzovaci kód znova.</string>
+    <string name="dgts__continue">Pokračovať</string>
+    <string name="dgts__create_account">Vytvoriť účet</string>
+    <string name="dgts__digits_logo_desc">ikona loga digits</string>
+    <string name="dgts__digits_logo_name_desc">názov loga digits</string>
+    <string name="dgts__dismiss">Zamietnuť</string>
+    <string name="dgts__done">Hotovo</string>
+    <string name="dgts__email_request_edit_hint">E-mailová adresa</string>
+    <string name="dgts__email_request_title">Zadajte e-mailovú adresu</string>
+    <string name="dgts__find_your_friends">Vyhľadajte svojich priateľov</string>
+    <string name="dgts__image_header_description">Titulný obrázok na prihlásenie</string>
+    <string name="dgts__invalid_email">Neplatný e-mail. Skúste to znova</string>
+    <string name="dgts__login_digits_text">Použiť moje telefónne číslo</string>
+    <string name="dgts__network_error">Skontrolujte svoju sieť a skúste to znova.</string>
+    <string name="dgts__not_now">Teraz nie</string>
+    <string name="dgts__okay">OK</string>
+    <string name="dgts__phone_number_edit_hint">Vaše číslo</string>
+    <string name="dgts__phone_number_text">Zadajte svoje telefónne číslo</string>
+    <string name="dgts__pin_code_verification_title">Zadajte kód na dvojstupňové overenie</string>
+    <string name="dgts__resend_confirmation_button_code">Znova odoslať kód</string>
+    <string name="dgts__resend_confirmation_text">Znova odoslať potvrdzovací kód</string>
+    <string name="dgts__send_confirmation_code">Odoslať potvrdzovací kód</string>
+    <string name="dgts__sending">Odosiela sa…</string>
+    <string name="dgts__success_desc">Ikona úspechu</string>
+    <string name="dgts__terms_email_request">Ťuknutím na položku %1$sPokračovať%1$s vyššie pridáte tento e-mail do svojho účtu Digits. Vyjadrujete svoj súhlas s tým, že táto apka a %7$svšetky apky uvedené vo vašom účte Digits%5$s môžu získať prístup k tejto e-mailovej adrese a že ich používatelia vás môžu identifikovať podľa e-mailu.</string>
+    <string name="dgts__terms_text">Po ťuknutí na položku %1$sOdoslať potvrdzovací kód%1$s vyššie vám %6$sDigits by Twitter%5$s odošle SMS správu na potvrdenie vášho telefónneho čísla. Na ďalšej obrazovke môžete výberom položky Znova odoslať kód prijať novú SMS správu alebo výberom položky Zavolať mi začať hovor na potvrdenie vášho telefónneho čísla. Za správy, hovor a dáta sa môžu účtovať poplatky.</string>
+    <string name="dgts__terms_text_call_me">Po ťuknutí na položku %1$sZavolať mi%1$s vyššie vám %6$sDigits by Twitter%5$s zavolá na potvrdenie vášho telefónneho čísla. Za hovor a dáta sa môžu účtovať poplatky.</string>
+    <string name="dgts__terms_text_create">Ťuknutím na položku %1$sVytvoriť účet%1$s vyššie vyjadrujete svoj súhlas s %8$spodmienkami používania%5$s, so %9$szásadami ochrany súkromia%5$s a s %10$spoužívaním súborov cookie%5$s v aplikácii %6$sDigits by Twitter%5$s, so zdieľaním vášho telefónneho čísla so službou %4$s a s tým, že ostatní používatelia %4$s vás môžu identifikovať podľa vášho telefónneho čísla.</string>
+    <string name="dgts__terms_text_sign_in">Po ťuknutí na položku %1$sPokračovať%1$s sa %7$svaše telefónne číslo a/alebo vaša e-mailová adresa v aplikácii Digits%5$s zdieľa so službou %4$s a ostatní používatelia %4$s vás budú môcť identifikovať podľa vášho telefónneho čísla a/alebo e-mailu.</string>
+    <string name="dgts__terms_text_updated">Ťuknutím na položku %1$sPokračovať%1$s vyššie vyjadrujete svoj súhlas s %8$spodmienkami používania%5$s, so %9$szásadami ochrany súkromia%5$s a s %10$spoužívaním súborov cookie%5$s aplikácie %6$sDigits by Twitter%5$s, so zdieľaním vášho %7$stelefónneho čísla a/alebo vašej e-mailovej adresy v aplikácii Digits%5$s so službou %4$s a s tým, že vás ostatní používatelia %4$s môžu identifikovať podľa vášho telefónneho čísla a/alebo e-mailu.</string>
+    <string name="dgts__try_again">Skúsiť znova</string>
+    <string name="dgts__try_again_confirmation">Skontrolujte svoj kód a skúste to znova.</string>
+    <string name="dgts__try_again_email">Skontrolujte svoj e-mail a skúste to znova</string>
+    <string name="dgts__try_again_phone_number">Skontrolujte svoje číslo a skúste to znova.</string>
+    <string name="dgts__try_another_phone">Skúste iné telefónne číslo</string>
+    <string name="dgts__unsupported_operator_error">Nepodarilo sa odoslať SMS správu na toto číslo.</string>
+    <string name="dgts__upload_contacts">Pomocou Digits by Twitter môžeme nájsť viac vašich priateľov, ktorí používajú túto apku. Keď ťuknete na tlačidlo OK, nahráme váš adresár do aplikácie Digits by Twitter, aby sme vám pomohli nájsť používateľov aplikácie %1$s, ktorých poznáte, alebo aby sme pomohli iným používateľom aplikácie %1$s nájsť vás.</string>
+    <string name="dgts__verification_code">Overovací kód</string>
+    <string name="dgts_pin_code_terms">Na stránke digits.com už máte nastavený kód na dvojstupňové overenie.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__allow_btn_txt">Povoliť</string>
+    <string name="tw__like_tweet">Obľúbiť si Tweet</string>
+    <string name="tw__liked_tweet">Zrušiť označenie Páči sa mi to</string>
+    <string name="tw__loading_tweet">Načítava sa Tweet</string>
+    <string name="tw__login_btn_txt">Prihlásiť sa na Twitter</string>
+    <string name="tw__not_now_btn_txt">Teraz nie</string>
+    <string name="tw__pause">pozastaviť</string>
+    <string name="tw__play">prehrať</string>
+    <string name="tw__replay">prehrať znova</string>
+    <string name="tw__retweeted_by_format">Retweetnuté používateľom %1$s</string>
+    <string name="tw__share_content_format">Pozrite si Tweet od používateľa \@%1$s\: https://twitter.com/%1$s/stav/%2$s</string>
+    <string name="tw__share_email_desc">Povoľte aplikácii %1$s prístup k e-mailovej adrese priradenej k vášmu účtu na Twitteri \@%2$s, aby ju aplikácia %1$s mohla použiť v súlade so svojimi zásadami ochrany súkromia. %1$s vám na túto adresu bude môcť napríklad odosielať aktualizácie a iné informácie.</string>
+    <string name="tw__share_email_title">Zdieľajte svoju e-mailovú adresu</string>
+    <string name="tw__share_subject_format">Tweet od používateľa %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Zdieľať Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+</resources>
