@@ -18,13 +18,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.digits.sdk.android.AuthCallback;
-import com.digits.sdk.android.Digits;
-import com.digits.sdk.android.DigitsAuthButton;
-import com.digits.sdk.android.DigitsAuthConfig;
-import com.digits.sdk.android.DigitsException;
-import com.digits.sdk.android.DigitsOAuthSigning;
-import com.digits.sdk.android.DigitsSession;
 import com.facebook.AccessToken;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -44,9 +37,6 @@ import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
 import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
-import com.twitter.sdk.android.core.TwitterAuthConfig;
-import com.twitter.sdk.android.core.TwitterAuthToken;
-import com.twitter.sdk.android.core.TwitterCore;
 
 import java.util.Arrays;
 import java.util.List;
@@ -57,7 +47,6 @@ import in.wavelabs.idn.ConnectionAPI.NBOSCallback;
 import in.wavelabs.idn.ConnectionAPI.SocialApi;
 import in.wavelabs.starterapp.R;
 import in.wavelabs.starterapp.util.Prefrences;
-import io.fabric.sdk.android.Fabric;
 import retrofit2.Response;
 
 /**
@@ -69,7 +58,6 @@ public class LoginFragment extends Fragment implements
     private static final int RC_SIGN_IN = 9001;
 
     private GoogleApiClient mGoogleApiClient;
-    private com.digits.sdk.android.AuthCallback callback;
     @NotEmpty(message = "Username cannot be empty")
     private EditText emailEditText;
     @Password(min = 5, scheme = Password.Scheme.ANY)
@@ -88,15 +76,7 @@ public class LoginFragment extends Fragment implements
         LoginFragment fragment = new LoginFragment();
         return fragment;
     }
-//    @Override
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//
-//        FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
-//        callbackManager = CallbackManager.Factory.create();
-//
-//
-//    }
+
         @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -242,73 +222,7 @@ public class LoginFragment extends Fragment implements
                 startActivityForResult(signInIntent, RC_SIGN_IN);
             }
         });
-        callback = new com.digits.sdk.android.AuthCallback() {
-            @Override
-            public void success(DigitsSession session, String phoneNumber) {
-                Toast.makeText(getActivity(),
-                        "Authentication Successful for " + phoneNumber, Toast.LENGTH_SHORT).show();
-                // userIdView.setText(getString(R.string.user_id, session.getId()));
-                if (session.getAuthToken() instanceof TwitterAuthToken) {
-                    final TwitterAuthToken authToken = (TwitterAuthToken) session.getAuthToken();
-                    //tokenView.setText(getString(R.string.token, authToken.token));
-                    //secretView.setText(getString(R.string.secret, authToken.secret));
-                    session.getEmail();
-                    DigitsOAuthSigning oauthSigning = new DigitsOAuthSigning(getAuthConfig(getActivity()), authToken);
 
-                    Map authHeaders = oauthSigning.getOAuthEchoHeadersForVerifyCredentials();
-
-                    Log.i(TAG, phoneNumber + " " + session.getId() + " " +
-                            authHeaders.get("X-Auth-Service-Provider") + " : "
-                            + authHeaders.get("X-Verify-Credentials-Authorization")
-                    );
-                    String provider =  authHeaders.get("X-Auth-Service-Provider").toString();
-                    String authCredentials = authHeaders.get("X-Verify-Credentials-Authorization").toString();
-                    String emailId = session.getEmail().getAddress();
-//                    digitsConnect(provider,authCredentials,emailId);
-                    Intent i  = new Intent(getActivity(), DigitsCreateAccount.class);
-                    i.putExtra("provider",provider);
-                    i.putExtra("authCredentials", authCredentials);
-                    i.putExtra("emailId", emailId);
-                    startActivity(i);
-                    // digitsConnect(authToken.token);
-
-                }
-            }
-
-            @Override
-            public void failure(DigitsException error) {
-                Toast.makeText(getActivity(), error.getMessage(),
-                        Toast.LENGTH_SHORT).show();
-            }
-        };
-
-
-        DigitsAuthButton digitsButton = (DigitsAuthButton) v.findViewById(R.id.auth_button);
-        digitsButton.setCallback(new AuthCallback() {
-            @Override
-            public void success(DigitsSession digitsSession, String s) {
-
-            }
-
-            @Override
-            public void failure(DigitsException e) {
-
-            }
-        });
-        digitsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-                DigitsAuthConfig.Builder digitsAuthConfigBuilder = new DigitsAuthConfig.Builder()
-                        .withAuthCallBack(callback)
-                        .withPhoneNumber("+91" + Prefrences.getPhoneNumber(getActivity()))
-                        .withEmailCollection()
-                        .withThemeResId(R.style.AppThemeDark);
-
-                Digits.authenticate(digitsAuthConfigBuilder.build());
-            }
-        });
     }
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
@@ -488,13 +402,6 @@ public class LoginFragment extends Fragment implements
     }
 
 
-
-
-    private static TwitterAuthConfig getAuthConfig(Context context){
-        final TwitterAuthConfig authConfig =  new TwitterAuthConfig("fUs0SZi3ZHrKTWamffDIV5jb3", "J5FlL2vay2wtJ4VYXW2VDRG0Fp4GlEv5nSTUVnFKZT7rZFy948");
-        Fabric.with(context, new TwitterCore(authConfig), new Digits());
-        return authConfig;
-    }
     @Override
     public void onValidationSucceeded() {
         Toast.makeText(getActivity(), "Yay! we got it right!", Toast.LENGTH_SHORT).show();
