@@ -79,58 +79,41 @@ public class LoginFragment extends Fragment implements Validator.ValidationListe
      //   callbackManager = CallbackManager.Factory.create();
         TextView rst = (TextView) v.findViewById(R.id.forgot);
 
-        rst.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity(), ResetPasswordActivity.class);
-                startActivity(i);
-                getActivity().overridePendingTransition(0, 0);
-            }
+        rst.setOnClickListener(view -> {
+            Intent i = new Intent(getActivity(), ResetPasswordActivity.class);
+            startActivity(i);
+            getActivity().overridePendingTransition(0, 0);
         });
         TextView signup = (TextView) v.findViewById(R.id.register);
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        signup.setOnClickListener(view -> {
 //                Intent i = new Intent(getActivity(), SignUpActivity.class);
 //                startActivity(i);
 //                getActivity().overridePendingTransition(0, 0);
-                ((AuthActivity)getActivity()).getViewPager().setCurrentItem(1);
+            ((AuthActivity)getActivity()).getViewPager().setCurrentItem(1);
 
 
-            }
         });
         emailEditText = (EditText) v.findViewById(R.id.emailtxt);
         passwordEditText = (EditText) v.findViewById(R.id.password);
 
         TextView login = (TextView) v.findViewById(R.id.login);
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               validator.validate(true);
-            }
-        });
+        login.setOnClickListener(view -> validator.validate(true));
         TextView loginWithSocial = (TextView) v.findViewById(R.id.loginWithSocial);
         TextView skipLogin = (TextView) v.findViewById(R.id.skipLogin);
 
-        loginWithSocial.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment vehicleEntryFragment = new SocialLoginFragment();
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.maincontainer, vehicleEntryFragment);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-            }
+        loginWithSocial.setOnClickListener(view -> {
+            Fragment vehicleEntryFragment = new SocialLoginFragment();
+            FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.maincontainer, vehicleEntryFragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
         });
-        skipLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               Intent i = new Intent(getActivity(), MainActivity.class);
-                i.putExtra("flag","skipLogin");
-                startActivity(i);
-                getActivity().finish();
-            }
+        skipLogin.setOnClickListener(view -> {
+           Intent i = new Intent(getActivity(), MainActivity.class);
+            i.putExtra("flag","skipLogin");
+            startActivity(i);
+            getActivity().finish();
         });
 
 

@@ -30,44 +30,26 @@ public class SplashScreen extends AppCompatActivity {
         if (AbstractApiContext.get("app").getUserToken("identity") == null) {
 
 
-            new Handler().postDelayed(new Runnable() {
+            new Handler().postDelayed(() -> {
+                // This method will be executed once the timer is over
+                // Start your app main activity*/
 
-                /*
-                 * Showing splash screen with a timer. This will be useful when you
-                 * want to show case your app logo / company
-                 */
+                Intent i = new Intent(SplashScreen.this, AuthActivity.class);
+                startActivity(i);
+                finish();
+                // close this activity
 
-                @Override
-                public void run() {
-                    // This method will be executed once the timer is over
-                    // Start your app main activity*/
-
-                    Intent i = new Intent(SplashScreen.this, AuthActivity.class);
-                    startActivity(i);
-                    finish();
-                    // close this activity
-
-                }
             }, SPLASH_TIME_OUT);
         } else {
-            new Handler().postDelayed(new Runnable() {
+            new Handler().postDelayed(() -> {
+                // This method will be executed once the timer is over
+                // Start your app main activity*/
 
-                /*
-                 * Showing splash screen with a timer. This will be useful when you
-                 * want to show case your app logo / company
-                 */
+                Intent i = new Intent(SplashScreen.this, AuthActivity.class);
+                startActivity(i);
+                finish();
+                // close this activity
 
-                @Override
-                public void run() {
-                    // This method will be executed once the timer is over
-                    // Start your app main activity*/
-
-                    Intent i = new Intent(SplashScreen.this, AuthActivity.class);
-                    startActivity(i);
-                    finish();
-                    // close this activity
-
-                }
             }, SPLASH_TIME_OUT);
         }
 

@@ -112,21 +112,10 @@ public class SocialLoginFragment extends Fragment implements
 //        // If the access token is available already assign it.
         LoginButton loginButton = (LoginButton) v.findViewById(R.id.facebook_login);
         TextView loginwithPhone = (TextView) v.findViewById(R.id.loginWithPhone);
-        loginwithPhone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                onLogin(LoginType.PHONE);
-            }
-        });
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LoginManager.getInstance()
-                        .logInWithReadPermissions(getActivity(),
-                                Arrays.asList("public_profile", "email"));
-
-            }
-        });
+        loginwithPhone.setOnClickListener(view -> onLogin(LoginType.PHONE));
+        loginButton.setOnClickListener(view -> LoginManager.getInstance()
+                .logInWithReadPermissions(getActivity(),
+                        Arrays.asList("public_profile", "email")));
 
         loginButton.registerCallback(AuthActivity.callbackManager, new FacebookCallback<LoginResult>() {
             @Override
@@ -179,12 +168,9 @@ public class SocialLoginFragment extends Fragment implements
         SignInButton signInButton = (SignInButton) v.findViewById(R.id.btn_sign_in);
         signInButton.setSize(SignInButton.SIZE_STANDARD);
         signInButton.setScopes(gso.getScopeArray());
-        v.findViewById(R.id.btn_sign_in).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
-                startActivityForResult(signInIntent, RC_SIGN_IN);
-            }
+        v.findViewById(R.id.btn_sign_in).setOnClickListener(view -> {
+            Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
+            startActivityForResult(signInIntent, RC_SIGN_IN);
         });
         // logoutAccount();
     }

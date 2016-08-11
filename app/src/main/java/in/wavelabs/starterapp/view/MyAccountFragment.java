@@ -23,12 +23,12 @@ import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.nbos.capi.api.v0.IdnCallback;
-import com.nbos.capi.api.v0.RestMessage;
+import com.nbos.capi.api.v0.models.RestMessage;
 import com.nbos.capi.modules.identity.v0.IdentityApi;
-import com.nbos.capi.modules.identity.v0.MemberApiModel;
+import com.nbos.capi.modules.identity.v0.models.MemberApiModel;
 import com.nbos.capi.modules.ids.v0.IDS;
 import com.nbos.capi.modules.media.v0.MediaApi;
-import com.nbos.capi.modules.media.v0.MediaApiModel;
+import com.nbos.capi.modules.media.v0.models.MediaApiModel;
 import com.squareup.picasso.Picasso;
 
 import java.io.File;
@@ -77,36 +77,25 @@ public class MyAccountFragment extends Fragment implements Validator.ValidationL
         NavigationView navigationView = (NavigationView) getActivity().findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
         navProfilePic = (ImageView) headerView.findViewById(R.id.profile);
-        updateBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                validator.validate(true);
-            }
-        });
+        updateBtn.setOnClickListener(view -> validator.validate(true));
         profilePic = (ImageView) v.findViewById(R.id.profilepic);
-        profilePic.setOnClickListener(new View.OnClickListener() {
+        profilePic.setOnClickListener(view -> Permiso.getInstance().requestPermissions(new Permiso.IOnPermissionResult() {
             @Override
-            public void onClick(View v) {
-                Permiso.getInstance().requestPermissions(new Permiso.IOnPermissionResult() {
-                    @Override
-                    public void onPermissionResult(Permiso.ResultSet resultSet) {
-                        if (resultSet.areAllPermissionsGranted()) {
-                            Intent intent = new Intent(Intent.ACTION_PICK,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                            startActivityForResult(intent, RESULT_LOAD_IMAGE);
-                            // Permission granted!
-                        } else {
-                            // Permission denied.
-                        }
-                    }
-
-                    @Override
-                    public void onRationaleRequested(Permiso.IOnRationaleProvided callback, String... permissions) {
-                        Permiso.getInstance().showRationaleInDialog("Gallery Permission", "Needs Read External Storage Permission", null, callback);
-                    }
-                }, Manifest.permission.READ_EXTERNAL_STORAGE);
-
+            public void onPermissionResult(Permiso.ResultSet resultSet) {
+                if (resultSet.areAllPermissionsGranted()) {
+                    Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                    startActivityForResult(intent, RESULT_LOAD_IMAGE);
+                    // Permission granted!
+                } else {
+                    // Permission denied.
+                }
             }
-        });
+
+            @Override
+            public void onRationaleRequested(Permiso.IOnRationaleProvided callback, String... permissions) {
+                Permiso.getInstance().showRationaleInDialog("Gallery Permission", "Needs Read External Storage Permission", null, callback);
+            }
+        }, Manifest.permission.READ_EXTERNAL_STORAGE));
         getProfile(String.valueOf(Prefrences.getUserId(getActivity())));
         getProfilePic(String.valueOf(Prefrences.getUserId(getActivity())));
         return v;

@@ -25,14 +25,12 @@ import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
 import com.greysonparrelli.permiso.PermisoActivity;
-import com.nbos.android.capi.AndroidApiContext;
-import com.nbos.capi.api.v0.AbstractApiContext;
 import com.nbos.capi.api.v0.IdnCallback;
-import com.nbos.capi.api.v0.RestMessage;
+import com.nbos.capi.api.v0.models.RestMessage;
 import com.nbos.capi.modules.identity.v0.IdentityApi;
 import com.nbos.capi.modules.ids.v0.IDS;
 import com.nbos.capi.modules.media.v0.MediaApi;
-import com.nbos.capi.modules.media.v0.MediaApiModel;
+import com.nbos.capi.modules.media.v0.models.MediaApiModel;
 import com.squareup.picasso.Picasso;
 
 import in.wavelabs.starterapp.R;

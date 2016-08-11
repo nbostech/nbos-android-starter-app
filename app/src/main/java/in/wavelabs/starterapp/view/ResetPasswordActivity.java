@@ -50,13 +50,7 @@ public class ResetPasswordActivity extends AppCompatActivity implements Validato
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         emailEditText = (EditText) findViewById(R.id.emailtxt);
         final Button reset = (Button) findViewById(R.id.reset_password);
-        reset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                validator.validate(true);
-            }
-
-        });
+        reset.setOnClickListener(view -> validator.validate(true));
     }
 
     public void onPause() {

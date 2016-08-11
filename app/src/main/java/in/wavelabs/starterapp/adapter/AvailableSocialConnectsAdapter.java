@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 import com.nbos.capi.api.v0.IdnCallback;
 import com.nbos.capi.modules.identity.v0.IdentityApi;
-import com.nbos.capi.modules.identity.v0.SocialConnectUrlResponse;
+import com.nbos.capi.modules.identity.v0.models.SocialConnectUrlResponse;
 import com.nbos.capi.modules.ids.v0.IDS;
 
 import java.util.List;
@@ -53,129 +53,114 @@ public class AvailableSocialConnectsAdapter extends RecyclerView.Adapter<Availab
 
         if (connectedItems != null && connectedItems.get(position).getConnectName().contains("Facebook")) {
             holder.account.setBackgroundDrawable(mContext.getResources().getDrawable(R.drawable.ic_facebook));
-            holder.account.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    IdentityApi identityApi = IDS.getModuleApi("identity");
-                    identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName().toLowerCase(), new IdnCallback<SocialConnectUrlResponse>() {
+            holder.account.setOnClickListener(view -> {
+                IdentityApi identityApi = IDS.getModuleApi("identity");
+                identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName().toLowerCase(), new IdnCallback<SocialConnectUrlResponse>() {
 
-                        @Override
-                        public void onResponse(Response<SocialConnectUrlResponse> response) {
-                            Intent i = new Intent(mContext, SocialWebViewActivity.class);
-                            i.putExtra("name", connectedItems.get(position).getConnectName());
-                            i.putExtra("url", response.body().getUrl());
-                            ((AppCompatActivity) mContext).startActivityForResult(i, 10);
-                        }
+                    @Override
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
+                        Intent i = new Intent(mContext, SocialWebViewActivity.class);
+                        i.putExtra("name", connectedItems.get(position).getConnectName());
+                        i.putExtra("url", response.body().getUrl());
+                        ((AppCompatActivity) mContext).startActivityForResult(i, 10);
+                    }
 
-                        @Override
-                        public void onFailure(Throwable t) {
+                    @Override
+                    public void onFailure(Throwable t) {
 
-                        }
+                    }
 
 
-                    });
-                }
+                });
             });
         } else if (connectedItems != null && connectedItems.get(position).getConnectName().contains("Google")) {
             holder.account.setBackgroundDrawable(mContext.getResources().getDrawable(R.drawable.ic_google_plus));
-            holder.account.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    IdentityApi identityApi = IDS.getModuleApi("identity");
-                    identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName().toLowerCase(), new IdnCallback<SocialConnectUrlResponse>() {
+            holder.account.setOnClickListener(view -> {
+                IdentityApi identityApi = IDS.getModuleApi("identity");
+                identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName().toLowerCase(), new IdnCallback<SocialConnectUrlResponse>() {
 
-                        @Override
-                        public void onResponse(Response<SocialConnectUrlResponse> response) {
-                            SocialWebViewActivity socialWebViewActivity = new SocialWebViewActivity();
-                            Intent i = new Intent(mContext, SocialWebViewActivity.class);
-                            i.putExtra("name", connectedItems.get(position).getConnectName());
-                            i.putExtra("url", response.body().getUrl());
-                            ((AppCompatActivity) mContext).startActivityForResult(i, 10);
-                        }
+                    @Override
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
+                        SocialWebViewActivity socialWebViewActivity = new SocialWebViewActivity();
+                        Intent i = new Intent(mContext, SocialWebViewActivity.class);
+                        i.putExtra("name", connectedItems.get(position).getConnectName());
+                        i.putExtra("url", response.body().getUrl());
+                        ((AppCompatActivity) mContext).startActivityForResult(i, 10);
+                    }
 
-                        @Override
-                        public void onFailure(Throwable t) {
+                    @Override
+                    public void onFailure(Throwable t) {
 
-                        }
+                    }
 
 
-                    });
-                }
+                });
             });
         } else if (connectedItems != null && connectedItems.get(position).getConnectName().contains("Instagram")) {
             holder.account.setBackgroundDrawable(mContext.getResources().getDrawable(R.drawable.ic_instagram));
-            holder.account.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    IdentityApi identityApi = IDS.getModuleApi("identity");
-                    identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName().toLowerCase(), new IdnCallback<SocialConnectUrlResponse>() {
+            holder.account.setOnClickListener(view -> {
+                IdentityApi identityApi = IDS.getModuleApi("identity");
+                identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName().toLowerCase(), new IdnCallback<SocialConnectUrlResponse>() {
 
-                        @Override
-                        public void onResponse(Response<SocialConnectUrlResponse> response) {
-                            Intent i = new Intent(mContext, SocialWebViewActivity.class);
-                            i.putExtra("name", connectedItems.get(position).getConnectName());
-                            i.putExtra("url", response.body().getUrl());
-                            ((AppCompatActivity) mContext).startActivityForResult(i, 10);
-                        }
+                    @Override
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
+                        Intent i = new Intent(mContext, SocialWebViewActivity.class);
+                        i.putExtra("name", connectedItems.get(position).getConnectName());
+                        i.putExtra("url", response.body().getUrl());
+                        ((AppCompatActivity) mContext).startActivityForResult(i, 10);
+                    }
 
-                        @Override
-                        public void onFailure(Throwable t) {
+                    @Override
+                    public void onFailure(Throwable t) {
 
-                        }
+                    }
 
 
-                    });
-                }
+                });
             });
         } else if (connectedItems != null && connectedItems.get(position).getConnectName().contains("gitHub")) {
             holder.account.setBackgroundDrawable(mContext.getResources().getDrawable(R.drawable.ic_github));
-            holder.account.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    IdentityApi identityApi = IDS.getModuleApi("identity");
-                    identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName(), new IdnCallback<SocialConnectUrlResponse>() {
+            holder.account.setOnClickListener(view -> {
+                IdentityApi identityApi = IDS.getModuleApi("identity");
+                identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName(), new IdnCallback<SocialConnectUrlResponse>() {
 
-                        @Override
-                        public void onResponse(Response<SocialConnectUrlResponse> response) {
-                            Intent i = new Intent(mContext, SocialWebViewActivity.class);
-                            i.putExtra("name", connectedItems.get(position).getConnectName());
-                            i.putExtra("url", response.body().getUrl());
-                            ((AppCompatActivity) mContext).startActivityForResult(i, 10);
-                        }
+                    @Override
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
+                        Intent i = new Intent(mContext, SocialWebViewActivity.class);
+                        i.putExtra("name", connectedItems.get(position).getConnectName());
+                        i.putExtra("url", response.body().getUrl());
+                        ((AppCompatActivity) mContext).startActivityForResult(i, 10);
+                    }
 
-                        @Override
-                        public void onFailure(Throwable t) {
+                    @Override
+                    public void onFailure(Throwable t) {
 
-                        }
+                    }
 
 
-                    });
-                }
+                });
             });
         } else if (connectedItems != null && connectedItems.get(position).getConnectName().contains("linkedIn")) {
             holder.account.setBackgroundDrawable(mContext.getResources().getDrawable(R.drawable.ic_linkedin));
-            holder.account.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    IdentityApi identityApi = IDS.getModuleApi("identity");
-                    identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName(), new IdnCallback<SocialConnectUrlResponse>() {
+            holder.account.setOnClickListener(view -> {
+                IdentityApi identityApi = IDS.getModuleApi("identity");
+                identityApi.socialWebViewLogin(connectedItems.get(position).getConnectName(), new IdnCallback<SocialConnectUrlResponse>() {
 
-                        @Override
-                        public void onResponse(Response<SocialConnectUrlResponse> response) {
-                            Intent i = new Intent(mContext, SocialWebViewActivity.class);
-                            i.putExtra("name", connectedItems.get(position).getConnectName());
-                            i.putExtra("url", response.body().getUrl());
-                            ((AppCompatActivity) mContext).startActivityForResult(i, 10);
-                        }
+                    @Override
+                    public void onResponse(Response<SocialConnectUrlResponse> response) {
+                        Intent i = new Intent(mContext, SocialWebViewActivity.class);
+                        i.putExtra("name", connectedItems.get(position).getConnectName());
+                        i.putExtra("url", response.body().getUrl());
+                        ((AppCompatActivity) mContext).startActivityForResult(i, 10);
+                    }
 
-                        @Override
-                        public void onFailure(Throwable t) {
+                    @Override
+                    public void onFailure(Throwable t) {
 
-                        }
+                    }
 
 
-                    });
-                }
+                });
             });
         } else {
             holder.account.setImageDrawable(mContext.getResources().getDrawable(R.mipmap.ic_launcher));

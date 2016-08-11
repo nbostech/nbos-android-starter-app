@@ -80,13 +80,7 @@ public class RegisterFragment extends Fragment implements Validator.ValidationLi
         passwordEditText = (EditText) v.findViewById(R.id.password);
         checkBox = (CheckBox) v.findViewById(R.id.checkBox);
         Button signup = (Button) v.findViewById(R.id.signup);
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                validator.validate(true);
-
-            }
-        });
+        signup.setOnClickListener(view -> validator.validate(true));
         return v;
     }
 

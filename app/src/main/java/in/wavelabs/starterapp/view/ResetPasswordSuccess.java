@@ -21,13 +21,10 @@ public class ResetPasswordSuccess extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Button home = (Button) findViewById(R.id.home);
-        home.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ResetPasswordSuccess.this, AuthActivity.class);
-                startActivity(i);
-                overridePendingTransition(0, 0);
-            }
+        home.setOnClickListener(view -> {
+            Intent i = new Intent(ResetPasswordSuccess.this, AuthActivity.class);
+            startActivity(i);
+            overridePendingTransition(0, 0);
         });
 
     }
