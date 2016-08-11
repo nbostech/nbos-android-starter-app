@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "746041504053",
+    "project_id": "sample-tenant"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746041504053:android:40de9a2c277b0142",
+        "android_client_info": {
+          "package_name": "in.wavelabs.starterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746041504053-ajrbk5bdvkls6g827i270icfs4oojin2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.wavelabs.starterapp",
+            "certificate_hash": "B935344DDC4FF7BFDC27D5E9969C6FB530E6700C"
+          }
+        },
+        {
+          "client_id": "746041504053-pfsl4m1ie77gpr1h2kfjbndd469qt0gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBySzbOEZTEoRfvExFm8QKhfQuK-PmJmC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75165143-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

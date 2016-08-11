@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#e64a19</color>-->
+    <!--<color name="colorPrimaryDark">#d84315</color>-->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrangeLight">#e06426</color>
+    <color name="colorOrangeDark">#bd430f</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#e57373</color>
+    <color name="white">#FFF</color>
+    <color name="common_font_color">#e2ccbf</color>
+    <color name="linkedIn">#0277bd</color>
+    <color name="instagram">#01579b</color>
+    <color name="github">#32506d</color>
+
+</resources>

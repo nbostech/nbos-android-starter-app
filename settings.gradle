@@ -1,0 +1,6 @@
+include ':app'
+//include ':client-api'
+//project(':client-api').projectDir=new File('/work/wavelabs-android-client-api/idn')
+//
+//include ':idn-model'
+//project(':idn-model').projectDir=new File('/work/idn/idn-model')
