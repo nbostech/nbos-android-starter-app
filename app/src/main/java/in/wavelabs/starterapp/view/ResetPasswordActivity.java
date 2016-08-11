@@ -16,12 +16,12 @@ import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Email;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.nbos.capi.api.v0.ErrorUtils;
-import com.nbos.capi.api.v0.FieldErrorApiModel;
 import com.nbos.capi.api.v0.IdnCallback;
-import com.nbos.capi.api.v0.RestMessage;
-import com.nbos.capi.api.v0.ValidationErrorResponse;
+import com.nbos.capi.api.v0.models.FieldErrorApiModel;
+import com.nbos.capi.api.v0.models.RestMessage;
+import com.nbos.capi.api.v0.models.ValidationErrorResponse;
 import com.nbos.capi.modules.identity.v0.IdentityApi;
-import com.nbos.capi.modules.identity.v0.ResetPasswordModel;
+import com.nbos.capi.modules.identity.v0.models.ResetPasswordModel;
 import com.nbos.capi.modules.ids.v0.IDS;
 
 import java.io.IOException;

@@ -15,12 +15,12 @@ import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Password;
 import com.nbos.capi.api.v0.ErrorUtils;
-import com.nbos.capi.api.v0.FieldErrorApiModel;
 import com.nbos.capi.api.v0.IdnCallback;
-import com.nbos.capi.api.v0.RestMessage;
-import com.nbos.capi.api.v0.ValidationErrorResponse;
+import com.nbos.capi.api.v0.models.FieldErrorApiModel;
+import com.nbos.capi.api.v0.models.RestMessage;
+import com.nbos.capi.api.v0.models.ValidationErrorResponse;
 import com.nbos.capi.modules.identity.v0.IdentityApi;
-import com.nbos.capi.modules.identity.v0.UpdatePasswordApiModel;
+import com.nbos.capi.modules.identity.v0.models.UpdatePasswordApiModel;
 import com.nbos.capi.modules.ids.v0.IDS;
 
 import java.io.IOException;
@@ -70,7 +70,7 @@ public class ChangePasswordFragment extends Fragment implements Validator.Valida
                     Toast.makeText(getActivity(), R.string.success, Toast.LENGTH_SHORT).show();
 
                 } else {
-                    ValidationErrorResponse  validationErrorResponse = ErrorUtils.parseError(identityApi,ValidationErrorResponse.class,response);
+                    ValidationErrorResponse validationErrorResponse = ErrorUtils.parseError(identityApi,ValidationErrorResponse.class,response);
                     if (validationErrorResponse != null) {
                         for (FieldErrorApiModel fieldErrorApiModel : validationErrorResponse.getErrors()) {
                             Log.i("response", fieldErrorApiModel.getObjectName());

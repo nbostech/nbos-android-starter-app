@@ -60,5 +60,7 @@ dependencies {
     compile 'com.greysonparrelli.permiso:permiso:0.2.0'
     // compile 'in.wavelabs:idn:0.2.8'
     compile project(':idn-android-api')
+    compile project(':nbos-identity-java-module')
+    compile project(':nbos-media-java-module')
 }
 apply plugin: 'com.google.gms.google-services'

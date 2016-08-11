@@ -31,12 +31,12 @@ import com.google.gson.Gson;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.nbos.capi.api.v0.ErrorUtils;
-import com.nbos.capi.api.v0.FieldErrorApiModel;
 import com.nbos.capi.api.v0.IdnCallback;
-import com.nbos.capi.api.v0.ValidationErrorResponse;
+import com.nbos.capi.api.v0.models.FieldErrorApiModel;
+import com.nbos.capi.api.v0.models.ValidationErrorResponse;
 import com.nbos.capi.modules.identity.v0.IdentityApi;
-import com.nbos.capi.modules.identity.v0.NewMemberApiModel;
-import com.nbos.capi.modules.identity.v0.SocialConnectApiModel;
+import com.nbos.capi.modules.identity.v0.models.NewMemberApiModel;
+import com.nbos.capi.modules.identity.v0.models.SocialConnectApiModel;
 import com.nbos.capi.modules.ids.v0.IDS;
 
 import java.io.IOException;
@@ -331,7 +331,7 @@ public class SocialConnectsFragment extends Fragment implements
                 if (response.isSuccessful()) {
                     Toast.makeText(getActivity(), service + " connected successfully", Toast.LENGTH_SHORT).show();
                 } else {
-                    ValidationErrorResponse  validationErrorResponse = ErrorUtils.parseError(identityApi,ValidationErrorResponse.class,response);
+                    ValidationErrorResponse validationErrorResponse = ErrorUtils.parseError(identityApi,ValidationErrorResponse.class,response);
                     if (validationErrorResponse != null) {
                         for (FieldErrorApiModel fieldErrorApiModel : validationErrorResponse.getErrors()) {
                             Log.i("response", fieldErrorApiModel.getObjectName());
