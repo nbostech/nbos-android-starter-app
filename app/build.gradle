@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
-    buildToolsVersion '24.0.0'
+    buildToolsVersion '24.0.1'
 
     defaultConfig {
         applicationId "in.wavelabs.starterapp"
@@ -50,23 +50,23 @@ dependencies {
     })
     testCompile 'org.mockito:mockito-core:1.10.19'
     androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support:support-annotations:24.1.1'
+    androidTestCompile 'com.android.support:support-annotations:24.2.0'
     testCompile 'org.mockito:mockito-core:2.0.43-beta'
-    compile 'com.android.support:design:24.1.1'
-    compile 'com.android.support:appcompat-v7:24.1.1'
-    compile 'com.android.support:recyclerview-v7:24.1.1'
+    compile 'com.android.support:design:24.2.0'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.android.support:recyclerview-v7:24.2.0'
     compile 'com.google.android.gms:play-services-auth:9.4.0'
     compile 'com.mobsandgeeks:android-saripaar:2.0.3'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'com.android.support:support-v4:24.1.1'
-    compile 'com.facebook.android:facebook-android-sdk:4.14.1'
+    compile 'com.android.support:support-v4:24.2.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.15.0'
     compile 'com.facebook.android:account-kit-sdk:4.14.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.greysonparrelli.permiso:permiso:0.2.0'
     // compile 'in.wavelabs:idn:0.2.8'
-    compile project(':idn-android-api')
-    compile project(':nbos-identity-java-module')
-    compile project(':nbos-media-java-module')
+    compile project(':ids-sdk-android')
+    compile project(':module-identity')
+    compile project(':module-media')
 }
 apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_facebook.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_facebook.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_network.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_network.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_github.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_github.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_logout.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_logout.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_pin_code.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_pin_code.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_users.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_users.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_instagram.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_instagram.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_car_dashboard.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_car_dashboard.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_google_plus.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_google_plus.png"
+    },
+    {
+        "merged": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_linkedin.png",
+        "source": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_linkedin.png"
+    }
+]

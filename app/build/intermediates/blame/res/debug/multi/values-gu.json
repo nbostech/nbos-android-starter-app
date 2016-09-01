@@ -1,0 +1,1560 @@
+[
+    {
+        "outputFile": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/res/merged/debug/values-gu/values-gu.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 238,
+                    "endColumn": 19,
+                    "endOffset": 9136
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 238,
+                        "endColumn": 19,
+                        "endOffset": 9086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 9141,
+                    "endColumn": 63,
+                    "endOffset": 9200
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 9091,
+                        "endColumn": 63,
+                        "endOffset": 9150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 9205,
+                    "endColumn": 63,
+                    "endOffset": 9264
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 9155,
+                        "endColumn": 63,
+                        "endOffset": 9214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 9269,
+                    "endColumn": 68,
+                    "endOffset": 9333
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 9219,
+                        "endColumn": 68,
+                        "endOffset": 9283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 9338,
+                    "endColumn": 68,
+                    "endOffset": 9402
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 9288,
+                        "endColumn": 68,
+                        "endOffset": 9352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 9407,
+                    "endColumn": 67,
+                    "endOffset": 9470
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 9357,
+                        "endColumn": 67,
+                        "endOffset": 9420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 9475,
+                    "endColumn": 60,
+                    "endOffset": 9531
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 9425,
+                        "endColumn": 60,
+                        "endOffset": 9481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 9536,
+                    "endColumn": 56,
+                    "endOffset": 9588
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 9486,
+                        "endColumn": 56,
+                        "endOffset": 9538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 9593,
+                    "endColumn": 70,
+                    "endOffset": 9659
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 9543,
+                        "endColumn": 70,
+                        "endOffset": 9609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 9664,
+                    "endColumn": 76,
+                    "endOffset": 9736
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 9614,
+                        "endColumn": 76,
+                        "endOffset": 9686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 9741,
+                    "endColumn": 60,
+                    "endOffset": 9797
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 9691,
+                        "endColumn": 60,
+                        "endOffset": 9747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 9802,
+                    "endColumn": 88,
+                    "endOffset": 9886
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 9752,
+                        "endColumn": 88,
+                        "endOffset": 9836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 9891,
+                    "endColumn": 179,
+                    "endOffset": 10066
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 9841,
+                        "endColumn": 179,
+                        "endOffset": 10016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 10071,
+                    "endColumn": 67,
+                    "endOffset": 10134
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 10021,
+                        "endColumn": 67,
+                        "endOffset": 10084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 10139,
+                    "endColumn": 75,
+                    "endOffset": 10210
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 10089,
+                        "endColumn": 75,
+                        "endOffset": 10160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 10215,
+                    "endColumn": 66,
+                    "endOffset": 10277
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 10165,
+                        "endColumn": 66,
+                        "endOffset": 10227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 10282,
+                    "endColumn": 71,
+                    "endOffset": 10349
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 10232,
+                        "endColumn": 71,
+                        "endOffset": 10299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 10354,
+                    "endLine": 257,
+                    "endColumn": 13,
+                    "endOffset": 10580
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 10304,
+                        "endLine": 257,
+                        "endColumn": 13,
+                        "endOffset": 10530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 10585,
+                    "endLine": 260,
+                    "endColumn": 13,
+                    "endOffset": 10881
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 10535,
+                        "endLine": 260,
+                        "endColumn": 13,
+                        "endOffset": 10831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 10886,
+                    "endLine": 263,
+                    "endColumn": 13,
+                    "endOffset": 11234
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 4,
+                        "startOffset": 10836,
+                        "endLine": 263,
+                        "endColumn": 13,
+                        "endOffset": 11184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 11239,
+                    "endColumn": 79,
+                    "endOffset": 11314
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 11189,
+                        "endColumn": 79,
+                        "endOffset": 11264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 11319,
+                    "endColumn": 85,
+                    "endOffset": 11400
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 11269,
+                        "endColumn": 85,
+                        "endOffset": 11350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 11405,
+                    "endColumn": 101,
+                    "endOffset": 11502
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 4,
+                        "startOffset": 11355,
+                        "endColumn": 101,
+                        "endOffset": 11452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 11507,
+                    "endColumn": 85,
+                    "endOffset": 11588
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 11457,
+                        "endColumn": 85,
+                        "endOffset": 11538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 11593,
+                    "endColumn": 91,
+                    "endOffset": 11680
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 11543,
+                        "endColumn": 91,
+                        "endOffset": 11630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 11685,
+                    "endLine": 271,
+                    "endColumn": 13,
+                    "endOffset": 11959
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 11635,
+                        "endLine": 271,
+                        "endColumn": 13,
+                        "endOffset": 11909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 11964,
+                    "endColumn": 90,
+                    "endOffset": 12050
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 11914,
+                        "endColumn": 90,
+                        "endOffset": 12000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 12055,
+                    "endColumn": 79,
+                    "endOffset": 12130
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 12005,
+                        "endColumn": 79,
+                        "endOffset": 12080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 12135,
+                    "endColumn": 113,
+                    "endOffset": 12244
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 12085,
+                        "endColumn": 113,
+                        "endOffset": 12194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 12249,
+                    "endColumn": 94,
+                    "endOffset": 12339
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 12199,
+                        "endColumn": 94,
+                        "endOffset": 12289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 12344,
+                    "endColumn": 100,
+                    "endOffset": 12440
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 12294,
+                        "endColumn": 100,
+                        "endOffset": 12390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 12445,
+                    "endColumn": 90,
+                    "endOffset": 12531
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 12395,
+                        "endColumn": 90,
+                        "endOffset": 12481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 12536,
+                    "endColumn": 94,
+                    "endOffset": 12626
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 12486,
+                        "endColumn": 94,
+                        "endOffset": 12576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 12631,
+                    "endLine": 281,
+                    "endColumn": 13,
+                    "endOffset": 12949
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 12581,
+                        "endLine": 281,
+                        "endColumn": 13,
+                        "endOffset": 12899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 12954,
+                    "endColumn": 84,
+                    "endOffset": 13034
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 12904,
+                        "endColumn": 84,
+                        "endOffset": 12984
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 13039,
+                    "endColumn": 76,
+                    "endOffset": 13111
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 12989,
+                        "endColumn": 76,
+                        "endOffset": 13061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 13116,
+                    "endColumn": 110,
+                    "endOffset": 13222
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 13066,
+                        "endColumn": 110,
+                        "endOffset": 13172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 13227,
+                    "endColumn": 90,
+                    "endOffset": 13313
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 13177,
+                        "endColumn": 90,
+                        "endOffset": 13263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 13318,
+                    "endColumn": 62,
+                    "endOffset": 13376
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 13268,
+                        "endColumn": 62,
+                        "endOffset": 13326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 13381,
+                    "endColumn": 68,
+                    "endOffset": 13445
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 13331,
+                        "endColumn": 68,
+                        "endOffset": 13395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 13450,
+                    "endColumn": 76,
+                    "endOffset": 13522
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 13400,
+                        "endColumn": 76,
+                        "endOffset": 13472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 13527,
+                    "endLine": 291,
+                    "endColumn": 13,
+                    "endOffset": 13669
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 13477,
+                        "endLine": 291,
+                        "endColumn": 13,
+                        "endOffset": 13619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 13674,
+                    "endColumn": 83,
+                    "endOffset": 13753
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.14.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 13624,
+                        "endColumn": 83,
+                        "endOffset": 13703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 13758,
+                    "endColumn": 167,
+                    "endOffset": 13921
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 167,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 13926,
+                    "endColumn": 110,
+                    "endOffset": 14032
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 110,
+                        "endOffset": 329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 14037,
+                    "endColumn": 120,
+                    "endOffset": 14153
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 334,
+                        "endColumn": 120,
+                        "endOffset": 450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 14158,
+                    "endColumn": 92,
+                    "endOffset": 14246
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 455,
+                        "endColumn": 92,
+                        "endOffset": 543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 14251,
+                    "endColumn": 70,
+                    "endOffset": 14317
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 548,
+                        "endColumn": 70,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 14322,
+                    "endColumn": 71,
+                    "endOffset": 14389
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 71,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 14394,
+                    "endColumn": 69,
+                    "endOffset": 14459
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 69,
+                        "endOffset": 756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 14464,
+                    "endColumn": 71,
+                    "endOffset": 14531
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 761,
+                        "endColumn": 71,
+                        "endOffset": 828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 14536,
+                    "endColumn": 75,
+                    "endOffset": 14607
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 833,
+                        "endColumn": 75,
+                        "endOffset": 904
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 14612,
+                    "endColumn": 92,
+                    "endOffset": 14700
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 909,
+                        "endColumn": 92,
+                        "endOffset": 997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 14705,
+                    "endColumn": 77,
+                    "endOffset": 14778
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 77,
+                        "endOffset": 1075
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 14783,
+                    "endColumn": 77,
+                    "endOffset": 14856
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1080,
+                        "endColumn": 77,
+                        "endOffset": 1153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 14861,
+                    "endColumn": 89,
+                    "endOffset": 14946
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1158,
+                        "endColumn": 89,
+                        "endOffset": 1243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 14951,
+                    "endColumn": 107,
+                    "endOffset": 15054
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1248,
+                        "endColumn": 107,
+                        "endOffset": 1351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 15059,
+                    "endColumn": 63,
+                    "endOffset": 15118
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1356,
+                        "endColumn": 63,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 15123,
+                    "endColumn": 66,
+                    "endOffset": 15185
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1420,
+                        "endColumn": 66,
+                        "endOffset": 1482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 15190,
+                    "endColumn": 146,
+                    "endOffset": 15332
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 146,
+                        "endOffset": 1629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 15337,
+                    "endColumn": 109,
+                    "endOffset": 15442
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 109,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 15447,
+                    "endColumn": 197,
+                    "endOffset": 15640
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 197,
+                        "endOffset": 632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 15645,
+                    "endColumn": 126,
+                    "endOffset": 15767
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 637,
+                        "endColumn": 126,
+                        "endOffset": 759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 15772,
+                    "endColumn": 124,
+                    "endOffset": 15892
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 764,
+                        "endColumn": 124,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 15897,
+                    "endColumn": 200,
+                    "endOffset": 16093
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 200,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 16098,
+                    "endColumn": 205,
+                    "endOffset": 16299
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 205,
+                        "endOffset": 1291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 16304,
+                    "endColumn": 123,
+                    "endOffset": 16423
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1296,
+                        "endColumn": 123,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 16428,
+                    "endColumn": 128,
+                    "endOffset": 16552
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1420,
+                        "endColumn": 128,
+                        "endOffset": 1544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 16557,
+                    "endColumn": 252,
+                    "endOffset": 16805
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 252,
+                        "endOffset": 579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 16810,
+                    "endColumn": 241,
+                    "endOffset": 17047
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1549,
+                        "endColumn": 241,
+                        "endOffset": 1786
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 17052,
+                    "endColumn": 120,
+                    "endOffset": 17168
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1791,
+                        "endColumn": 120,
+                        "endOffset": 1907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 17173,
+                    "endColumn": 109,
+                    "endOffset": 17278
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1912,
+                        "endColumn": 109,
+                        "endOffset": 2017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 17283,
+                    "endColumn": 194,
+                    "endOffset": 17473
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 194,
+                        "endOffset": 2212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 17478,
+                    "endColumn": 126,
+                    "endOffset": 17600
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2217,
+                        "endColumn": 126,
+                        "endOffset": 2339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 17605,
+                    "endColumn": 201,
+                    "endOffset": 17802
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2344,
+                        "endColumn": 201,
+                        "endOffset": 2541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 17807,
+                    "endColumn": 134,
+                    "endOffset": 17937
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2546,
+                        "endColumn": 134,
+                        "endOffset": 2676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 17942,
+                    "endColumn": 179,
+                    "endOffset": 18117
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2681,
+                        "endColumn": 179,
+                        "endOffset": 2856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 18122,
+                    "endColumn": 90,
+                    "endOffset": 18208
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2861,
+                        "endColumn": 90,
+                        "endOffset": 2947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 18213,
+                    "endColumn": 95,
+                    "endOffset": 18304
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2952,
+                        "endColumn": 95,
+                        "endOffset": 3043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 18309,
+                    "endColumn": 110,
+                    "endOffset": 18415
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-gu/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3048,
+                        "endColumn": 110,
+                        "endOffset": 3154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 18420,
+                    "endColumn": 60,
+                    "endOffset": 18476
+                },
+                "from": {
+                    "file": "/Users/vivekkiran/Desktop/work-idn/idn-development/idn-app-android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/res/values-gu/values-gu.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1634,
+                        "endColumn": 60,
+                        "endOffset": 1690
+                    }
+                }
+            }
+        ]
+    }
+]
