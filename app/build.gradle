@@ -66,7 +66,7 @@ dependencies {
     compile 'com.greysonparrelli.permiso:permiso:0.2.0'
     // compile 'in.wavelabs:idn:0.2.8'
     compile project(':ids-sdk-android')
-    compile project(':module-identity')
-    compile project(':module-media')
+    compile 'io.nbos:module-media:0.0.1'
+    compile 'io.nbos:module-identity:0.0.1'
 }
 apply plugin: 'com.google.gms.google-services'

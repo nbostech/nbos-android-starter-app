@@ -1,4 +1,4 @@
-package in.wavelabs.starterapp;
+package io.nbos.starterapp;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
