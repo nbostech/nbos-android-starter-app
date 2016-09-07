@@ -30,7 +30,7 @@
                 android:layout_below="@+id/localcontainer"
                 android:layout_marginTop="25dp">
 
-                <in.wavelabs.starterapp.fonts.CustomTypeFaceTextView
+                <io.nbos.starterapp.fonts.CustomTypeFaceTextView
                     android:id="@+id/register"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -57,7 +57,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true" />
 
-                <in.wavelabs.starterapp.fonts.CustomTypeFaceTextView
+                <io.nbos.starterapp.fonts.CustomTypeFaceTextView
                     android:id="@+id/forgot"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -86,7 +86,7 @@
                 android:orientation="vertical">
 
 
-                <in.wavelabs.starterapp.fonts.CustomTypeFaceTextView
+                <io.nbos.starterapp.fonts.CustomTypeFaceTextView
                     android:id="@+id/login"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -161,7 +161,7 @@
                 android:layout_marginTop="25dp"
                 android:orientation="vertical">
 
-                <in.wavelabs.starterapp.fonts.CustomTypeFaceTextView
+                <io.nbos.starterapp.fonts.CustomTypeFaceTextView
                     android:id="@+id/loginWithSocial"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -174,7 +174,7 @@
                     android:textSize="15sp"
                     app:fontName="@string/font_bold" />
 
-                <in.wavelabs.starterapp.fonts.CustomTypeFaceTextView
+                <io.nbos.starterapp.fonts.CustomTypeFaceTextView
                     android:id="@+id/skipLogin"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"

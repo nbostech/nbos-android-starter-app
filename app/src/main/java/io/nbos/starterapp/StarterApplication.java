@@ -22,6 +22,13 @@ public class StarterApplication extends MultiDexApplication {
         AndroidApiContext.initialize(getApplicationContext());
         FacebookSdk.sdkInitialize(getApplicationContext());
         AccountKit.initialize(getApplicationContext());
-        AndroidApiContext.generateKeyHash(getApplicationContext(), "in.wavelabs.starterapp");
+        AndroidApiContext.generateKeyHash(getApplicationContext(), "io.nbos.starterapp");
+        try {
+            Class.forName("io.nbos.capi.modules.token.v0.TokenIdsRegistry");
+            Class.forName("io.nbos.capi.modules.media.v0.MediaIdsRegistry");
+            Class.forName("io.nbos.capi.modules.identity.v0.IdentityIdsRegistry");
+        } catch (Exception x) {
+            x.printStackTrace();
+        }
     }
 }

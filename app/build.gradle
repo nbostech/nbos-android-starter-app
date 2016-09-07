@@ -4,7 +4,7 @@ android {
     buildToolsVersion '24.0.1'
 
     defaultConfig {
-        applicationId "in.wavelabs.starterapp"
+        applicationId "io.nbos.starterapp"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
@@ -65,8 +65,8 @@ dependencies {
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.greysonparrelli.permiso:permiso:0.2.0'
     // compile 'in.wavelabs:idn:0.2.8'
-    compile project(':ids-sdk-android')
     compile 'io.nbos:module-media:0.0.1'
-    compile 'io.nbos:module-identity:0.0.1'
+    compile 'io.nbos:ids-sdk-android:0.0.1'
+    compile project(':module-identity')
 }
 apply plugin: 'com.google.gms.google-services'

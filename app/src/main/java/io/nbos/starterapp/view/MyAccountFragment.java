@@ -25,6 +25,7 @@ import io.nbos.capi.api.v0.IdnCallback;
 import io.nbos.capi.api.v0.models.RestMessage;
 import io.nbos.capi.modules.identity.v0.IdentityApi;
 import io.nbos.capi.modules.identity.v0.models.MemberApiModel;
+import io.nbos.capi.modules.identity.v0.models.UpdateMemberApiModel;
 import io.nbos.capi.modules.ids.v0.IDS;
 import io.nbos.capi.modules.media.v0.MediaApi;
 import io.nbos.capi.modules.media.v0.models.MediaApiModel;
@@ -213,7 +214,7 @@ public class MyAccountFragment extends Fragment implements Validator.ValidationL
         });
 
     }
-    private void updateProfile(MemberApiModel memberApiModel, String uuid){
+    private void updateProfile(UpdateMemberApiModel memberApiModel, String uuid){
         IdentityApi identityApi = IDS.getModuleApi("identity");
         identityApi.updateMemberDetails(uuid,memberApiModel, new IdnCallback<MemberApiModel>() {
 
@@ -232,11 +233,12 @@ public class MyAccountFragment extends Fragment implements Validator.ValidationL
     @Override
     public void onValidationSucceeded() {
         Toast.makeText(getActivity(), "Yay! we got it right!", Toast.LENGTH_SHORT).show();
-        MemberApiModel memberApiModel = new MemberApiModel();
+        UpdateMemberApiModel memberApiModel = new UpdateMemberApiModel();
         memberApiModel.setFirstName(firstName.getText().toString());
         memberApiModel.setLastName(lastName.getText().toString());
         memberApiModel.setPhone(phone.getText().toString());
         memberApiModel.setDescription(description.getText().toString());
+        memberApiModel.setEmail(email.getText().toString());
         updateProfile(memberApiModel,Prefrences.getUserId(getActivity()));
     }
 

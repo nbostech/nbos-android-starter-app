@@ -56,6 +56,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.AuthActivity" />
         </activity>
+
+        <activity
+            android:name=".view.SocialWebViewActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".view.MainActivity"
+            android:windowSoftInputMode="stateHidden">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.MainActivity" />
+        </activity>
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"

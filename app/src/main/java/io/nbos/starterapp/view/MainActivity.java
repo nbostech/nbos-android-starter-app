@@ -25,8 +25,11 @@ import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
 import com.greysonparrelli.permiso.PermisoActivity;
+
+import io.nbos.android.capi.AndroidApiContext;
 import io.nbos.capi.api.v0.IdnCallback;
 import io.nbos.capi.api.v0.models.RestMessage;
+import io.nbos.capi.api.v0.models.TokenApiModel;
 import io.nbos.capi.modules.identity.v0.IdentityApi;
 import io.nbos.capi.modules.ids.v0.IDS;
 import io.nbos.capi.modules.media.v0.MediaApi;
@@ -233,6 +236,7 @@ public class MainActivity extends PermisoActivity
             @Override
             public void onResponse(Response<RestMessage> response) {
                 if (response.isSuccessful()) {
+                    AndroidApiContext.get("app").setUserToken("identity",null);
                     Prefrences.clearPrefrences(MainActivity.this);
                     Intent i = new Intent(MainActivity.this, AuthActivity.class);
                     startActivity(i);
@@ -240,6 +244,7 @@ public class MainActivity extends PermisoActivity
                     SharedPreferences settings = getSharedPreferences("customer", Context.MODE_PRIVATE);
                     settings.edit().clear().apply();
                 } else {
+                    AndroidApiContext.get("app").setUserToken("identity",null);
                     Prefrences.clearPrefrences(MainActivity.this);
                     Intent i = new Intent(MainActivity.this, AuthActivity.class);
                     startActivity(i);

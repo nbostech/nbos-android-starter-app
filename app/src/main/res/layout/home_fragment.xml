@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <in.wavelabs.starterapp.fonts.CustomTypeFaceTextView
+    <io.nbos.starterapp.fonts.CustomTypeFaceTextView
         android:id="@+id/welcomeTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
